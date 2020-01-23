@@ -1,0 +1,130 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #353535;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+
+    width:100%;
+    padding: 50px  120px;
+  }
+  &__img {
+    max-width: 45px;
+    width: 100%;
+
+    padding-top: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+  &__wrapper {
+    width: 25%;
+    text-align: left;
+
+  }
+  &__contact {
+    color: #ffffff;
+    font-family: $fontOpenSans;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  &__address {
+    color: #bababa;
+    font-family: $fontOpenSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  &__phone {
+    color: #bababa;
+    font-family: $fontOpenSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  [class*='fa'] {
+    text-align: center;
+
+    color: #fff;
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (max-width : 992px) {
+  .footer {
+    &__contact {
+      font-weight: 400;
+      line-height: 30px;
+    }
+    &__address {
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+
+  }
+}
+@media only screen and (max-width : 768px) {
+  .footer {
+    &__contact {
+      font-weight: 300;
+      line-height: 20px;
+    }
+    &__address {
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 20px;
+    }
+    [class*='fa'] {
+      font-size: 20px;
+    }
+  }
+}
+@media only screen and (max-width : 650px) {
+  .footer {
+    &__container {
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 50px;
+    }
+    &__contact {
+      font-weight: 100;
+      line-height: 10px;
+    }
+    &__address {
+      font-size: 10px;
+      font-weight: 100;
+      line-height: 15px;
+    }
+    &__img {
+      max-width: 45px;
+      width: 100%;
+
+      padding-top: 10px;
+
+      img {
+        display: none;
+      }
+    }
+    &__wrapper {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 10px;
+
+    }
+    [class*='fa'] {
+      font-size: 15px;
+    }
+
+  }
+
+}

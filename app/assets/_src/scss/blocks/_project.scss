@@ -1,0 +1,222 @@
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__heading {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+
+    &.right {
+      position: relative;
+      align-self: flex-end;
+      padding-bottom: 30px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 90px;
+        left: 0;
+        display: block;
+
+        width: 2px;
+        height: 85px;
+
+        background-color:#feb960;;
+      }
+    }
+   &.left {
+     position: relative;
+     &:before {
+       content: '';
+       position: absolute;
+       top: 40px;
+       left: 0;
+       display: block;
+
+       width: 2px;
+       height: 85px;
+
+       background-color:#feb960;;
+     }
+    }
+    .subscribe {
+      align-self: flex-end;
+    }
+  }
+
+  &-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+    &__wrapper {
+      position: relative;
+      width: 100%;
+      z-index: 2;
+    }
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+    }
+    &__img {
+      max-width: 800px;
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      position: absolute;
+      left: 0;
+      color: #fff;
+      text-shadow: 0 0 10px rgba(24, 24, 24, 0.5);
+      font-family: $fontMerriweather;
+      font-size: 55px;
+      font-weight: 400;
+
+      transform: translate(-150%, 0) rotate(90deg);
+      transition: all .8s ease-in-out;
+      opacity: 0;
+    }
+    &__number {
+      white-space: pre;
+    }
+    &__arrows {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 200px;
+      background-color: transparent;
+      z-index: -1;
+
+      .slider-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: rgba(196, 196, 196, 0.91);
+        font-size: 33px;
+        max-width: 300px;
+        width: 100%;
+        height: 100%;
+
+        background-color: transparent;
+
+        &:hover {
+          color: #feb960;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .headlines {
+    display: none;
+  }
+}
+
+.slick-active{
+.projects-slider__title{
+  transform: translate(0,0) rotate(0);
+  opacity: 1;
+}
+}
+
+@media  (min-width: 992px) and (max-width: 1199px){
+  .projects {
+    max-width: 600px;
+    &__heading {
+      &.left {
+        transform: rotate(90deg) translate(50%, 0);
+        &:before {
+          width: 85px;
+          height: 2px;
+        }
+      }
+      &.right {
+        transform: rotate(-90deg) translate(50%, 0);
+        &:before {
+          width: 85px;
+          height: 2px;
+        }
+      }
+    }
+  }
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+  .projects {
+    max-width: 500px;
+    &__heading {
+      &.left {
+        transform: rotate(90deg) translate(50%, 0);
+        &:before {
+          width: 85px;
+          height: 2px;
+        }
+      }
+      &.right {
+        transform: rotate(-90deg) translate(50%, 0);
+        &:before {
+          width: 85px;
+          height: 2px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .projects {
+    max-width: 400px;
+    &__heading {
+      &.left {
+        transform: rotate(90deg) translate(50%, 0);
+        &:before {
+          width: 85px;
+          height: 2px;
+        }
+      }
+      &.right {
+        transform: rotate(-90deg) translate(50%, 0);
+        &:before {
+          width: 85px;
+          height: 2px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .projects {
+    max-width: 400px;
+
+    &__heading {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .projects {
+    max-width: 400px;
+    &__heading {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+}
