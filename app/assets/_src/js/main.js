@@ -35,8 +35,6 @@ $(document).ready(() => {
     modules.addModules(new isMobile());
 
     modules.init();
-    console.log(isMobile());
-
     $(function () {
         $('.form__field .input').focusout(function () {
             let any_input = $(this).val(); //get input value after focusout
@@ -52,10 +50,9 @@ $(document).ready(() => {
     const viewportWidth = () => {
         return window.innerWidth;
     };
-    console.log(viewportWidth());
 
     if (viewportWidth() <= 992 || isMobile()) {
-        console.log('-----------');
+
         $(document).find('.our-team__border').remove();
 
         $('.js--slider-team').slick({
@@ -89,8 +86,6 @@ $(document).ready(() => {
         prevArrow: '.js--arrow-left',
         nextArrow: '.js--arrow-right',
     });
-
-
 
     const burger = $('.js--burger');
     const menu = $('.banner__navigation');
