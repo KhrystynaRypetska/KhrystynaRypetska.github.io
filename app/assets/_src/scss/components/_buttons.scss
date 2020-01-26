@@ -140,3 +140,45 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .main-btn {
+    color: #feb960;
+    transition: all .3s ease-in-out;
+    .arrow {
+      background-color: #feb960;
+      transform: translateX(0);
+      &:after {
+        transform: rotate(45deg);
+      }
+      &:before {
+        transform: rotate(-45deg);
+      }
+    }
+
+
+
+    //&:hover {
+    //  color: #feb960;
+    //  transition: all .3s ease-in-out;
+    //
+    //}
+  }
+  .burger-icon {
+    &__wrap {
+      height: 30px;
+    }
+
+    width: 80%;
+    height: 80%;
+    span {
+      width: 80%;
+      height: 5px;
+    }
+    &:after, &:before {
+      width: 80%;
+      height: 5px;
+    }
+  }
+}
+

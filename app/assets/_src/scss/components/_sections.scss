@@ -1,5 +1,5 @@
 .section {
-  padding: 100px 0 200px;
+  padding: 100px 0 100px;
 
   &--banner {
     position: relative;
@@ -59,14 +59,9 @@
     background-color:  #353535;
   }
 }
-//@media (max-width: 768px) {
-//  .section {
-//    padding: 100px 0 200px;
-//  }
-//}
-//
-//@media (max-width: 480px) {
-//  .section {
-//    padding: 100px 0 50px;
-//  }
-//}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 50px 0 100px;
+  }
+}

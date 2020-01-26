@@ -35,6 +35,7 @@ $(document).ready(() => {
     modules.addModules(new isMobile());
 
     modules.init();
+
     $(function () {
         $('.form__field .input').focusout(function () {
             let any_input = $(this).val(); //get input value after focusout
@@ -58,8 +59,8 @@ $(document).ready(() => {
         $('.js--slider-team').slick({
             autoplaySpeed: 1000,
             infinite: false,
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 2,
         })
     }
 
@@ -104,4 +105,13 @@ $(document).ready(() => {
         }
     });
 
+    const map = (item) => {
+        let location = {lat: -25.344, lng: 131.036};
+        let mapOptions = new google.maps.Map(item,
+            {
+                zoom: 4,
+                center: location
+            });
+    };
+    map(document.getElementById('map'))
 });
