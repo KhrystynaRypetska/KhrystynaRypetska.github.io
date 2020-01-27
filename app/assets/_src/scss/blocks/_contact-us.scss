@@ -17,6 +17,7 @@ textarea {
   font-size: 16px;
 
   width: 100%;
+  height: 100%;
   border: none;
   display: inline-block;
 
@@ -25,7 +26,7 @@ textarea {
   &.has-value{
     outline: none;
     & + label {
-      top: -10px;
+      top: 0;
       left: 0;
 
       font-size: 15px;
@@ -37,10 +38,12 @@ textarea {
 
 label {
   position: absolute;
-  left: 20px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   color: #ffffff;
   font-family: $fontOpenSans;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
   transition: all .3s ease-in-out;
@@ -59,8 +62,9 @@ textarea {
 
   &__field {
     width: 45%;
+    height: 45px;
     position: relative;
-    padding: 15px 20px;
+    padding: 5px 20px;
     margin-bottom: 20px;
     &:after {
       content: '';
@@ -82,4 +86,11 @@ input:focus + label,
 textarea:focus + label,
 input.has-value + label {
 
+}
+@media (max-width: 992px )  {
+  .form {
+    &__field {
+      width: 100%;
+    }
+  }
 }
