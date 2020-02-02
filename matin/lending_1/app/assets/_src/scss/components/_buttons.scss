@@ -1,0 +1,41 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: .3em .5em;
+  
+  font-family: $fontMontserrat;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  
+  &--main {
+    height: 48px;
+    
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.82px;
+    letter-spacing: 0.2px;
+    
+    box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
+    background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
+  }
+  
+  //small
+  &--s {
+  
+  }
+  
+  //medium
+  &--m {
+    max-width: 275px;
+    width: 100%;
+  }
+  
+  //large
+  &--l {
+    max-width: 315px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+.main {
+  &__title {
+    text-align: center;
+    color: #ffffff;
+    font-family: $fontMontserrat;
+    font-weight: 400;
+    &__wrapper {
+      margin: 135px 0;
+      
+      @media (max-width: 992px) {
+        margin: 50px 0;
+      }
+    }
+    
+    .caption {
+      font-size: 45px;
+    }
+    &__text {
+      font-size: 35px;
+    }
+  }
+}
+.section {
+  &__title {
+    text-align: center;
+    color: #ffffff;
+  
+    font-family: $fontMontserrat;
+    font-size: 38px;
+    font-weight: 700;
+    
+    margin-bottom: 90px;
+    
+    @media (max-width: 992px) {
+      margin-bottom: 40px;
+    }
+  }
+  
+}

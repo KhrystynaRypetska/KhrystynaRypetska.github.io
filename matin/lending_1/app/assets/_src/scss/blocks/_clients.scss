@@ -1,0 +1,28 @@
+.clients {
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 10px;
+
+    height: 110px;
+    width: 20%;
+    svg {
+      height: 100%;
+      width: 100%;
+
+    }
+  }
+}
+
+.count {
+  font-size: 50px;
+  color: #4ea7f9;
+}

@@ -1,0 +1,38 @@
+<section class="section--banner section" >
+
+    <div class="container">
+
+        <div class="banner">
+            <div class="main__title__wrapper">
+                <h1 class="main__title">
+                    <span class="title__text caption ">[Квадрат]</span>
+                    <span class="title__text">—</span>
+                    <span class="title__text">цифровые решения</span>
+                </h1>
+            </div>
+            <div class="icons-block">
+                {% for i in range(0, 3) -%}
+                    <div class="icons-block__item">
+                        <div class="icons-block__img">
+                            {%include '../svg/_dogovor-red.njk' %}
+                        </div>
+                        <div class="icons-block__text">
+                            <h2>
+                                Разработка
+                                крупных ИТ-проектов
+                            </h2>
+                        </div>
+
+                    </div>
+                {%- endfor %}
+
+            </div>
+
+            <div class="banner__btn-wrap">
+                {%include '../components/_main-button.njk' %}
+            </div>
+        </div>
+
+    </div>
+
+</section>

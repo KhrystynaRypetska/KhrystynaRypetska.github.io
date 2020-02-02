@@ -1,0 +1,58 @@
+.about-us {
+  &__wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  
+    margin-bottom: 95px;
+    
+    @media (min-width: 1024px) {
+      padding: 0 15px;
+      grid-gap: 30px;
+    }
+    
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+      .grid-tpl-1 {
+        grid-column: 1/2;
+        grid-row: 1/2
+      }
+      .grid-tpl-2 {
+        grid-column: 1/2;
+        grid-row: 2/3
+      }
+      .grid-tpl-3 {
+        grid-column: 2/3;
+        grid-row: 1/2
+      }
+      .grid-tpl-4 {
+        grid-column: 2/3;
+        grid-row: 2/3
+      }
+      .grid-tpl-5 {
+        grid-column: 2/3;
+        grid-row: 3/4
+      }
+      .grid-tpl-6 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+      }
+      .grid-tpl-7 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+      }
+      .grid-tpl-8 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+}
