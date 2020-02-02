@@ -232,7 +232,7 @@ body, html { position: relative; font: 400 1rem/1.5 sans-serif; color: #000000; 
 
 body.no-scroll, html.no-scroll { overflow: hidden; }
 
-body { background-image: url("../img/background/bg.png"); background-position: top center; -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+body { background-image: url("../img/background/main-bg.png"); background-position: top center; -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
 
 body.fixed { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
 
@@ -300,15 +300,15 @@ body.fixed { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
 
 @media (max-width: 992px) { .section { padding: 25px 0; } }
 
-.section--banner { position: relative; padding-top: 0; width: 100%; background-position: 50% 50%; -webkit-background-size: cover; background-size: cover; }
+.section:before { content: ''; display: block; position: absolute; background-image: url("../img/background/overlay.png"); background-position: 50% 50%; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100%; left: 0; top: 0; z-index: -1; }
+
+.section--banner { position: relative; padding-top: 0; width: 100%; background-image: url("../img/background/banner/banner.jpg"); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; }
 
 @media (min-width: 992px) { .section--banner { min-width: 900px; } }
 
-.section--banner:before { content: ''; display: block; position: absolute; background-image: url("../img/background/overlay-top.png"); width: 100%; height: 100%; left: 0; top: 0; z-index: -1; }
+.section--we-do { position: relative; width: 100%; background-image: url("../img/background/counter/counter.png"); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% top; }
 
-.section--we-do { position: relative; width: 100%; }
-
-.section--about-us { position: relative; width: 100%; }
+.section--about-us { position: relative; width: 100%; background-image: url("../img/background/about-us/about-us.png"); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% top; }
 
 .section--projects { position: relative; width: 100%; }
 

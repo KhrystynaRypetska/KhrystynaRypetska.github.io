@@ -3,7 +3,7 @@ import isMobile from './utils/isMobile';
 import removeHoverOnMobile from './utils/removeHoverOnMobile';
 import CounterInit from './modules/counter/counter'
 import Sliders from './modules/sliders/sliders'
-
+import Navigation from './modules/navigation/navigation'
 
 class Modules {
   constructor() {
@@ -38,9 +38,11 @@ $(document).ready(() => {
   detectBrowser();
   removeHoverOnMobile();
   const modules = new Modules();
+
   modules.addModules(new removeHoverOnMobile());
   modules.addModules(new CounterInit());
   modules.addModules(new Sliders());
+  modules.addModules(new Navigation());
 
   modules.init();
 
