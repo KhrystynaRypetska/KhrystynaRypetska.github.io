@@ -64,6 +64,21 @@ $(document).ready(() => {
         })
     }
 
+    // if (viewportWidth() <= 460) {
+    //     $('.js--slider-team-one').slick({
+    //         arrows: true,
+    //         autoplay: false,
+    //         autoplaySpeed: 1000,
+    //         infinite: true,
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         dots: true,
+    //         prevArrow: '.js--arrow-left',
+    //         nextArrow: '.js--arrow-right',
+    //     });
+    // }
+
+
     $('.js--slider').slick({
         arrows: true,
         autoplay: false,
