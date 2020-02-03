@@ -1,9 +1,12 @@
 <header>
     <div class="container--nav">
         <div class="header">
-            <div class="header__logo">
-                <span>K</span>
+            <div class="header__logo ">
+                <a href="./">
+                    {%include '../svg/_nav-Logo.njk'%}
+                </a>
             </div>
+
             <div class="header__navigation">
                 <nav class="nav">
                     <ul class="nav__list js--nav">
@@ -14,23 +17,46 @@
                             <a href="#projects">Проекты</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#">Отзывы</a>
+                            <a href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#proces">Процес</a>
                         </li>
                         <li class="nav__item">
                             <a href="#clients">Клиенты</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#">Контакты</a>
+                            <a href="#contacts">Контакты</a>
                         </li>
                     </ul>
-
-                    <select>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                    </select>
                 </nav>
+            </div>
+
+            <div class="tel tel--mob">
+                <a href="tel:+79006149797">Тел.+7 (900) 614-97-97</a>
+            </div>
+
+            <div class="nav__contacts">
+                <div class="lang__select">
+                    <select>
+                        <option value="RU">
+
+                            RU
+                        </option>
+                        <option value="ENG" >
+                            ENG
+                        </option>
+                        <option value="DF">
+                            DF
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="tel tel--desc">
+                    <a href="tel:+79006149797">Тел.+7 (900) 614-97-97</a>
+                </div>
             </div>
         </div>
     </div>

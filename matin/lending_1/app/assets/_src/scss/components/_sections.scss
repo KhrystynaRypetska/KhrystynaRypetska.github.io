@@ -34,7 +34,7 @@
     background-position: 50% 50%;
     
     @media (min-width: 992px) {
-      min-width: 900px;
+      min-height: 900px;
     }
   }
   
@@ -62,6 +62,11 @@
   }
   
   &--projects {
+    position: relative;
+    
+    width: 100%;
+  }
+  &--response {
     position: relative;
     
     width: 100%;

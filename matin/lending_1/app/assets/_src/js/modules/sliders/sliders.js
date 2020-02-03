@@ -12,9 +12,9 @@ export default class Sliders extends Carousels {
         }
 
     }
-
     init() {
         this.sidersHandler()
     }
+
 
 }

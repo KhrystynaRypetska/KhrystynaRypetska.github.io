@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a3c4cc-e69c-4d36-9efd-d14bf4deb578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/modules/anchor-smooth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/about-us/about-us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/banner/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/counter/counter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_reviews.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_reviews.njk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/svg/_nav-Logo.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/modules/Carousels.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/modules/Carousels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/sliders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_about-us.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_about-us.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_clients.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_clients.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_process.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_process.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_projects.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_projects.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_we-do.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_we-do.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_header.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_header.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/layouts/_layout.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/layouts/_layout.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/overlay-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/overlay.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/js/report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/index.html" afterDir="false" />
@@ -31,78 +30,140 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-              <folding>
-                <element signature="e#640#1015#0" />
-                <element signature="e#1032#1090#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/modules/anchor-smooth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="4786" column="4" selection-start-line="4786" selection-start-column="4" selection-end-line="4786" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_header.njk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.7735221">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_reviews.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="46" selection-start-column="46" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                    <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_header.njk">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="946">
+                  <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_reviews.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="8" selection-start-column="1" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="532">
+                  <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_navigation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#71#217#0" />
+                    <element signature="e#989#1135#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-255">
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#0#50#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-307">
+                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>response</find>
+      <find>console.log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>reviews</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,23 +172,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss" />
-        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss" />
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_about-us.njk" />
-        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk" />
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_clients.njk" />
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_process.njk" />
-        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_projects.njk" />
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_we-do.njk" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/modules/anchor-smooth.js" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/layouts/_layout.njk" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_projects.scss" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_projects.njk" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_response.scss" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_reviews.scss" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/modules/Carousels.js" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/sliders.js" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/index.html" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/svg/_nav-Logo.njk" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_response.njk" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss" />
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js" />
         <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_header.njk" />
-        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js" />
-        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/modules/anchor-smooth.js" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_navigation.scss" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_header.scss" />
+        <option value="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
-    <option name="y" value="-23" />
+    <option name="x" value="-58" />
+    <option name="y" value="-19" />
     <option name="width" value="1943" />
     <option name="height" value="1060" />
   </component>
@@ -186,27 +259,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="_src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KhrystynaRypetska.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KhrystynaRypetska.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="matin" type="462c0819:PsiDirectoryNode" />
-              <item name="lending_1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="_src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KhrystynaRypetska.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KhrystynaRypetska.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="matin" type="462c0819:PsiDirectoryNode" />
-              <item name="lending_1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="_src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,7 +270,16 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="_src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="chunks" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KhrystynaRypetska.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KhrystynaRypetska.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="matin" type="462c0819:PsiDirectoryNode" />
+              <item name="lending_1" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,10 +300,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\svg" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\njk" />
       <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\about-us" />
       <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background" />
       <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\banner" />
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\counter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,25 +329,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580650057549</updated>
-      <workItem from="1580650059119" duration="8291000" />
+      <workItem from="1580650059119" duration="9431000" />
+      <workItem from="1580677741905" duration="252000" />
+      <workItem from="1580723982710" duration="17860000" />
+      <workItem from="1580748310939" duration="14649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8291000" />
+    <option name="totallyTimeSpent" value="42192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19395973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.28045326" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -293,72 +353,52 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2407932" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20134228" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.063739374" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#640#1015#0" />
-            <element signature="e#1032#1090#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/img/background/overlay.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/img/background/counter/counter-overlay.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_about-us.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_clients.njk">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_process.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_projects.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-start-column="56" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -369,41 +409,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="4786" column="4" selection-start-line="4786" selection-start-column="4" selection-end-line="4786" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_process.njk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_head.njk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/svg/Partners-Design.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/svg/_dogovor-red.njk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/svg/_partners-43.njk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/svg/_partners-Amerika.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="n#g#0;n#svg#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_projects.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_projects.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/counter/modules/counterModule.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/counter/counter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/modules/Carousels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/modules/anchor-smooth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/sliders/sliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_reviews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/layouts/_layout.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/globals/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/svg/_nav-Logo.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_about-us.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+          <folding>
+            <element signature="e#71#217#0" />
+            <element signature="e#989#1135#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/chunks/_header.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="946">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_reviews.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="4786" column="4" selection-start-line="4786" selection-start-column="4" selection-end-line="4786" selection-end-column="4" />
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/navigation.js">
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/navigation/modules/anchor-smooth.js">
+    <entry file="file://$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

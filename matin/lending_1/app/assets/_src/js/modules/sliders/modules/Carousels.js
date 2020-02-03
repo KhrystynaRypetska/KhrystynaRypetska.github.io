@@ -11,15 +11,37 @@ export default class Carousels {
     owlOptions(item) {
         let option = {}
 
-        option = {
-            items: 1,
-            loop: true,
-            nav: true,
-            dots: true,
-            dotsContainer: '.carousel__dots',
-            navContainer: '.carousel__wrapper',
-            navClass:['owl-prev carousel__nav','owl-next carousel__nav']
+        let wrapper = $(item).parent('.carousel__wrapper')
+        let dotsContainer = wrapper.find('.carousel__dots')
+
+        if ($(item).hasClass('projects-slider')) {
+            option = {
+                items: 1,
+                loop: true,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                dotsContainer: dotsContainer,
+                navContainer: wrapper,
+                navClass:['owl-prev carousel__nav','owl-next carousel__nav']
+            }
         }
+
+        if($(item).hasClass('reviews-slider')) {
+            option = {
+                items: 1,
+                loop: true,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 7000,
+                dotsContainer: dotsContainer,
+                navContainer: wrapper,
+                navClass:['owl-prev carousel__nav','owl-next carousel__nav']
+            }
+        }
+
 
         return option
     }
