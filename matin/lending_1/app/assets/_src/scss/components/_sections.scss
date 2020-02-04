@@ -68,8 +68,20 @@
   }
   &--response {
     position: relative;
+  
+    width: 100%;
+  }
+  
+  &--reviews {
+    position: relative;
     
     width: 100%;
+  
+    background-image: url("../img/background/reviews/reviews.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% top;
+   
   }
   
   &--process {
