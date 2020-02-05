@@ -3,7 +3,8 @@
   
   z-index: 2;
   
-  box-shadow: inset 0px 0px 10px -3px #1b1a1a;
+
+  box-shadow: inset 0px 0px 10px -3px #1b1b1b;
   
   @media (max-width: 992px) {
     padding: 25px 0;
@@ -71,7 +72,7 @@
   }
   &--response {
     position: relative;
-    
+    background-color: #141414f5;
     width: 100%;
   }
   
@@ -84,6 +85,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% top;
+    box-shadow: #e2ff73;
    
   }
   
@@ -94,6 +96,11 @@
   }
   
   &--clients {
+    position: relative;
+    
+    width: 100%;
+  }
+  &--contacts {
     position: relative;
     
     width: 100%;
