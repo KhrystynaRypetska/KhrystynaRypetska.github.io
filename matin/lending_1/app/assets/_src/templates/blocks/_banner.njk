@@ -2,39 +2,10 @@
     {%include '../chunks/_header.njk' %}
     <div class="container">
 
-        <div class="banner">{#position relative#}
-            <div class="banner__lines">
-                <div class="banner__lines__item-title">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-title-bottom">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-bottom-roz">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-roz-soz">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-soz-vned">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-vned">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-vned-bottom-top">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-vned-bottom">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-                <div class="banner__lines__item-vned-btm">
-                    {%include '../svg/punktir/Punktir.njk'%}
-                </div>
-
-            </div>
-
+        <div class="banner">
             <div class="main__title__wrapper">
+                <div class="lines-1 animate" style="background-image: url('../assets/img/svg/line1.svg')"></div>
+
                 <h1 class="main__title">
                     <span class="title__text caption ">[Квадрат]</span>
                     <span class="title__text">—</span>
@@ -42,7 +13,12 @@
                 </h1>
             </div>
 
+
             <div class="icons-block">
+                <div class="lines-group">
+                    <div class="lines-2 animate" style="background-image: url('../assets/img/svg/line2.svg')"></div>
+                    <div class="lines-3 animate" style="background-image: url('../assets/img/svg/line1-1.svg')"></div>
+                </div>
                 <div class="icons-block__item">
                     <div class="icons-block__img">
                         {% include '../svg/banner/Razrabotka.njk' %}
@@ -80,9 +56,13 @@
                     </div>
 
                 </div>
+
+                <div class="lines-4 animate" style="background-image: url('../assets/img/svg/line2.svg')"></div>
             </div>
 
             <div class="banner__btn-wrap">
+                <div class="lines-5 animate" style="background-image: url('../assets/img/svg/line1.svg')"></div>
+
                 {% include '../components/_main-button.njk' %}
             </div>
         </div>
