@@ -1,76 +1,114 @@
 <section class="section--contacts section" id="">
-<div class="container">
-    <div class="contacts">
+    <div class="container">
+        <div class="contacts">
+            <div class="contacts-form">
+                <h3 class="section__title">
+                    Заполните запрос на проект
+                </h3>
+                <form  action="#" method="get" autocomplete="on">
+                    <div class="form__wrapper">
+                        <div class="form">
 
-        <h3 class="section__title">
-            Заполните запрос на проект
-        </h3>
-        <form  action="#" method="get" autocomplete="on">
-            <div class="form__wrapper">
-                <div class="form">
+                            <div class="form__fields">
+                                <p class="form__field">
+                                    <input class="input" type="email" name="email" id="email">
+                                    <label for="email">Ваш Email <span> *</span></label>
+                                </p>
+                                <p class="form__field">
+                                    <input class="input" type="text" name="name" id="name">
+                                    <label for="name">Ваше имя<span> *</span></label>
+                                </p>
+                                <p class="form__field">
+                                    <input class="input" type="tel" name="tel" id="tel">
+                                    <label for="tel">Ваш номер телефона</label>
+                                </p>
 
-                    <div class="form__fields">
-                        <p class="form__field">
-                            <input class="input" type="email" name="email" id="email">
-                            <label for="email">Ваш Email <span> *</span></label>
-                        </p>
-                        <p class="form__field">
-                            <input class="input" type="text" name="name" id="name">
-                            <label for="name">Ваше имя<span> *</span></label>
-                        </p>
-                        <p class="form__field">
-                            <input class="input" type="tel" name="tel" id="tel">
-                            <label for="tel">Ваш номер телефона</label>
-                        </p>
+                            </div>
+
+                            <div class="form__textarea">
+                                <p class="form__field ">
+                                    <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                                    <label for="message">Ваш запрос<span> *</span></label>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
+
+                        <div class="form__checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check" class="form__text">Согласен с       <a href="Polit_konf.doc" class="break" > Политикой конфеденциальности</a></label>
+                        </div>
+
+                        <button class="clients-form btn btn--main btn--l" type="submit">
+                            Отправить запрос
+                        </button>
+                    </div>
+                </form>
+
+
+            </div>
+            <h3 class="section__title">
+                Контакты
+            </h3>
+            <div class="contacts__block">
+
+                <div class="contacts__info">
+                    <div class="contacts__title">
+
+                        Свяжитесь с нами любым удобным способом
 
                     </div>
 
-                    <div class="form__textarea">
-                        <p class="form__field ">
-                            <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
-                            <label for="message">Ваш запрос<span> *</span></label>
-                        </p>
+                    <div class="contacts__info__wrap">
+                        <div class="contacts__info__item">
+                            <div class="svg-img">
+                                {% include '../svg/map/Telefon-red.njk' %}
+                            </div>
+                            <div class="item-cont">
+                                <a  href="tel:+79006149797">+7 (900) 614-97-97</a>
+                            </div>
+
+                        </div>
+                        <div class="contacts__info__item">
+                            <div class="svg-img">
+                                {% include '../svg/map/Pochta-red.njk' %}
+                            </div>
+                            <div class="item-cont">
+                                <p class="contacts__text">
+                                    info@сquared.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contacts__info__item">
+
+                            <div class="svg-img">
+                                {% include '../svg/map/Marker-red.njk' %}
+                            </div>
+                            <div class="item-cont">
+                                <p class="contacts__text">
+                                    Москва, Варшавское ш., д. 39
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="clients-form btn btn--main btn--l btn-wrap__desc">
+                        Отправить запрос
+                    </div>
                 </div>
 
-                <p class="form__text"> <span> *</span> Поля обязательные для заполнения</p>
+                <div class="contacts__map" id="map">
 
-                <div class="form__checkbox">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="form__text">Согласен с <a href=""> Политикой конфеденциальности</a></label>
                 </div>
-
-                <button class="clients-form btn btn--main btn--l" type="submit">
+                <div class="clients-form btn btn--main btn--l btn-wrap__mob">
                     Отправить запрос
-                </button>
+                </div>
             </div>
-        </form>
 
 
-
-
-        <h3 class="section__title">
-            Заполните запрос на проект
-        </h3>
-        <div class="contacts__block">
-
-             <div class="contacts__info">
-                 <div class="contacts__info__tel">fhdkfhif iruifir</div>
-                 <div class="contacts__info__mail">zj;ofijrg;our9;</div>
-                 <div class="contacts__info__posishn">fdrgireu0t9ey0p</div>
-                 <div class="btn-wrap wrap-item">
-                     {%include '../components/_main-button.njk' %}
-                 </div>
-             </div>
-
-            <div class="contacts__map" id="map">
-
-            </div>
-         </div>
-
-
+        </div>
     </div>
-</div>
 
 </section>
