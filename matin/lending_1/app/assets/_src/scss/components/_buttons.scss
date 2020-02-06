@@ -24,19 +24,19 @@
   }
   
   //small
-  &--s {
+  &--form {
   
   }
   
   //medium
-  &--m {
-    max-width: 230px;
-    width: 100%;
-  }
+  //&--m {
+  //  max-width: 230px;
+  //  width: 100%;
+  //}
   
   //large
   &--l {
-    max-width: 315px;
+    max-width: 230px;
     width: 100%;
   }
 }
