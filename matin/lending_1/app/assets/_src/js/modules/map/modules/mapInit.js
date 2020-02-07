@@ -6,10 +6,11 @@ export default class MapCreater {
     }
 
     createMAp(container) {
-       new google.maps.Map(document.getElementById(container), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom: 8,
-            styles: options
+        new google.maps.Map(document.getElementById(container), {
+            center: {lat: 55.684685, lng: 37.624105},
+            zoom: 15,
+            styles: options,
+            disableDefaultUI: true
         });
     }
 
