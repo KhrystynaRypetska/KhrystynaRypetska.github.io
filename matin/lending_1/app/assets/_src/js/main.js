@@ -1,3 +1,5 @@
+import Modules from './utils/creater-modules/createrModules'
+
 import detectBrowser from './utils/detectBrowser';
 import isMobile from './utils/isMobile';
 import removeHoverOnMobile from './utils/removeHoverOnMobile';
@@ -6,35 +8,7 @@ import Sliders from './modules/sliders/sliders'
 import Navigation from './modules/navigation/navigation'
 import Form from './modules/form/form'
 import MapModule from './modules/map/mapModule'
-
-
-class Modules {
-  constructor() {
-    this.modules = [];
-    this.env = 'dev';
-  }
-
-
-  log(str) {
-    if (this.env === 'dev') {
-      console.log(str);
-    }
-  }
-
-  addModules(module) {
-    this.modules.push(module);
-  }
-
-  init() {
-
-    this.modules.forEach((item => {
-      if (typeof item.init !== 'undefined') {
-        this.log(`Module ${item.constructor.name} is init`);
-        item.init();
-      }
-    }))
-  }
-}
+import ScrollingDeal from './modules/animation1/animation'
 
 $(document).ready(() => {
   detectBrowser();
@@ -47,17 +21,13 @@ $(document).ready(() => {
   modules.addModules(new Navigation());
   modules.addModules(new Form());
   modules.addModules(new MapModule());
+  modules.addModules(new ScrollingDeal());
 
   modules.init();
 
   if (isMobile()) {
     $('body').addClass('mobile');
   }
-
-
-//...
-
-
 
   function DropDown(el) {
     this.dd = el;
@@ -92,12 +62,12 @@ $(document).ready(() => {
       return this.index;
     }
   }
+
   $(function() {
 
     let dd = new DropDown( $('#dd') );
 
     $(document).click(function() {
-      // all dropdowns
       $('.wrapper-dropdown-1').removeClass('active');
     });
 

@@ -1,10 +1,14 @@
 .main {
   &__title {
-
     text-align: center;
     color: #ffffff;
     font-family: $fontMontserrat;
     font-weight: 400;
+
+    /*for animation*/
+    opacity: 0;
+    transition: opacity 0.8s;
+
     &__wrapper {
       width: 100%;
       position: relative;
@@ -33,6 +37,10 @@
     font-weight: 700;
     
     margin-bottom: 90px;
+
+    /*for animation*/
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
     
     @media (max-width: 992px) {
       margin-bottom: 40px;

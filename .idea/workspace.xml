@@ -2,45 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7a3c4cc-e69c-4d36-9efd-d14bf4deb578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/banner/banner-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/banner/hands-f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/banner/hands.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/banner/main-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/clients/clients.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/counter-overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/footer/footer-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/we-do/we-do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/animation/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/animation/modules/scrollAnimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_clients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_we-do.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/blocks/_we-do.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_titles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/scss/components/_titles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_banner.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_clients.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_clients.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_contacts.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_contacts.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_reviews.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_reviews.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_we-do.njk" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/templates/blocks/_we-do.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/map/modules/mapInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/_src/js/modules/map/modules/mapInit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/about-us/about-us.png" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/about-us/about-us.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/contacts/contacts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/footer/footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/process/process.png" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/process/process.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/reviews/reviews.png" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/reviews/reviews.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/img/background/reviews/reviews1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/app/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/app/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/app/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/app/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/app/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/matin/lending_1/app/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matin/lending_1/app/assets/js/report.html" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.428449">
       <split-first>
@@ -208,6 +184,12 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+>>>>>>> 51cfc6a89f78ca24371f95ff4564f4d8c060138d
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -225,6 +207,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -317,13 +300,23 @@
       </pane>
       <pane id="Scope" />
     </panes>
+=======
+  <component name="ProjectId" id="1XdEV1wjFdwrGVbAE5gXJA58PiX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> 51cfc6a89f78ca24371f95ff4564f4d8c060138d
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../clean_starter_kit" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\my-project\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/../../git_hub_projects/KhrystynaRypetska.github.io/my-project/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -331,31 +324,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\banner" />
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\we-do" />
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\about-us" />
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background" />
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\reviews" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\svg\map" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\blocks" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\layouts" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\contscts" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\svg\punctur" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\footer" />
-      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\banner" />
+      <recent name="D:\Projects\home\matin\matin\lending_1\app\assets\img\svg" />
       <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\_src\templates\svg\footer" />
+      <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\footer" />
       <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\response" />
       <recent name="D:\projects\git_hub_projects\KhrystynaRypetska.github.io\matin\lending_1\app\assets\img\background\reviews" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -378,6 +359,7 @@
       <workItem from="1580817248244" duration="826000" />
       <workItem from="1580890968544" duration="42170000" />
       <workItem from="1580971922798" duration="35873000" />
+<<<<<<< HEAD
       <workItem from="1581068570269" duration="25999000" />
       <workItem from="1581252163032" duration="22821000" />
       <workItem from="1581323697679" duration="3182000" />
@@ -782,5 +764,31 @@
         </state>
       </provider>
     </entry>
+=======
+      <workItem from="1581068570269" duration="25180000" />
+      <workItem from="1581367593504" duration="1647000" />
+      <workItem from="1581369538980" duration="4000" />
+      <workItem from="1581424121143" duration="1555000" />
+      <workItem from="1581439828851" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#ESLint" timestamp="1581367621961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1581367621961" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581439839759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581439839759" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581439828703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581439828703" />
+>>>>>>> 51cfc6a89f78ca24371f95ff4564f4d8c060138d
   </component>
 </project>
