@@ -163,6 +163,12 @@
     align-items: center;
 
     width: 100%;
+
+    /*for animation*/
+    .btn {
+      opacity: 0;
+      transition: opacity .5s ease-in-out;
+    }
   }
 }
 
@@ -218,6 +224,9 @@
 
     width: 32%;
     padding: 5px;
+
+    /*for animation*/
+    opacity: 0;
 
     @media (min-width: 1024px) {
       margin: 0 20px;
@@ -376,7 +385,7 @@
   }
   to {
     max-height: 10.5em;
- 
+
   }
 }
 

@@ -1,0 +1,68 @@
+&.animate {
+  .main__title {
+    opacity: 1;
+  }
+  /*banner lines*/
+  .lines-1 {
+    animation: Line1 1s linear forwards;
+  }
+
+  .lines-2 {
+    animation: Line2 1s linear forwards;
+    animation-delay: 1s;
+  }
+
+  .lines-3 {
+    animation: Line3 2s linear forwards;
+    animation-delay: 2s;
+  }
+
+  .lines-4 {
+    animation: Line4 1s linear forwards;
+    animation-delay: 4s;
+  }
+
+  .lines-5 {
+    animation: Line5 1s linear forwards;
+    animation-delay: 5s;
+  }
+  /*banner lines end*/
+  .icons-block {
+    .icons-block__item {
+      &.icb-1 {
+        opacity: 1;
+        transition: opacity .5s ease-in-out;
+        transition-delay: 2s;
+      }
+      &.icb-2 {
+        opacity: 1;
+        transition: opacity .5s ease-in-out;
+        transition-delay: 2.5s;
+      }
+      &.icb-3 {
+        opacity: 1;
+        transition: opacity .5s ease-in-out;
+        transition-delay: 3s;
+      }
+    }
+  }
+
+  .banner__btn-wrap {
+    .btn {
+      opacity: 1;
+      transition: opacity .5s ease-in-out;
+      transition-delay: 5s;
+    }
+  }
+
+  .section__title {
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    transition-delay: 0.3s;
+  }
+
+
+}
+
+
+
