@@ -1,4 +1,11 @@
 .reviews {
+  .wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 575px;
+  }
   .carousel__wrapper {
     display: flex;
     justify-content: flex-end;
@@ -11,8 +18,11 @@
     box-shadow: 0 0 10px 1px #ffffff;
     background-color: #1b1b1b ;
     opacity: 0.7;
+    
+    margin-bottom: 150px;
     @media (max-width: 768px) {
       margin: 0 auto;
+      margin-bottom: 50px;
     }
     
   }
