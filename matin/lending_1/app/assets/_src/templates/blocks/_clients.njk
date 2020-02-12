@@ -21,6 +21,57 @@
                     {% include '../svg/_partners-Amerika.njk' %}
                 </div>
             </div>
+            <div class="contacts-form">
+                <h3 class="section__title">
+                    Заполните запрос на проект
+                </h3>
+                <form  action="#" method="get" autocomplete="on">
+                    <div class="form__wrapper">
+                        <div class="form">
+
+                            <div class="form__fields">
+                                <p class="form__field">
+                                    <input class="input" type="email" name="email" id="email">
+                                    <label for="email">Ваш Email <span> *</span></label>
+                                </p>
+                                <p class="form__field">
+                                    <input class="input" type="text" name="name" id="name">
+                                    <label for="name">Ваше имя<span> *</span></label>
+                                </p>
+                                <p class="form__field">
+                                    <input class="input" type="tel" name="tel" id="tel">
+                                    <label for="tel">Ваш номер телефона</label>
+                                </p>
+
+                            </div>
+
+                            <div class="form__textarea">
+                                <p class="form__field ">
+                                    <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                                    <label for="message">Ваш запрос<span> *</span></label>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
+
+                        <div class="form__checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check" class="form__text">Согласен с       <a href="Polit_konf.doc" class="break" > Политикой конфеденциальности</a></label>
+                        </div>
+
+                        <button class="clients-form btn btn--main btn--l" type="submit">
+                            Отправить запрос
+                        </button>
+                    </div>
+                </form>
+
+
+            </div>
+
+
+
 
         </div>
     </div>

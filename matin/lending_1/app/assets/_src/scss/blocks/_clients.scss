@@ -1,8 +1,15 @@
 .clients {
+  .contacts-form {
+    //padding-bottom: 150px;
+    @media (max-width: 768px) {
+      padding-bottom: 50px;
+    }
+  }
   &__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
   }
   
   &__item {

@@ -1,11 +1,4 @@
 .contacts {
-  .contacts-form {
-    padding-bottom: 150px;
-    @media (max-width: 768px) {
-      padding-bottom: 50px;
-    }
-  }
-  
   &__block {
     display: flex;
     justify-content: space-between;
