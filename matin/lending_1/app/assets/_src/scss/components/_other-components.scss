@@ -10,7 +10,10 @@
     
     min-height: 230px;
     
-    padding: 20px 10px;
+    padding: 20px 10px 30px;
+  
+    /*for animation*/
+    //opacity: 0;
     
     @media (min-width: 769px ) {
       position: relative;

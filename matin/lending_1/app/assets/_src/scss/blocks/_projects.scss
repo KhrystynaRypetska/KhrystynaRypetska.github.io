@@ -24,6 +24,12 @@
     
     &.owl-prev {
       left: 25px;
+      @media (max-width: 768px) {
+        right: 15px;
+      }
+      @media (max-width: 480px) {
+        right: 5px;
+      }
       
       span {
         font-size: 0;
@@ -38,7 +44,12 @@
     
     &.owl-next {
       right: 25px;
-      
+      @media (max-width: 768px) {
+        right: 15px;
+      }
+      @media (max-width: 480px) {
+        right: 5px;
+      }
       span {
         font-size: 0;
         width: 0;
@@ -53,7 +64,7 @@
   
   &__dots {
     position: absolute;
-    top: 95%;
+    top: 93%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);

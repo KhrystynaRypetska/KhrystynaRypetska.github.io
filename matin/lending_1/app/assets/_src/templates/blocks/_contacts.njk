@@ -14,39 +14,42 @@
                     </div>
 
                     <div class="contacts__info__wrap">
-                        <div class="contacts__info__item">
-                            <div class="svg-img">
-                                {% include '../svg/map/Telefon-red.njk' %}
-                            </div>
-                            <div class="item-cont">
-                                <a  href="tel:+79006149797">+7 (900) 614-97-97</a>
-                            </div>
+                        <div itemscope itemtype = "#">
+                            <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div class="svg-img">
+                                    {% include '../svg/map/Telefon-red.njk' %}
+                                </div>
+                                <div class="item-cont">
+                                    <a  href="tel:+79006149797"><span itemprop="telephone">+7 (900) 614-97-97</span></a>
+                                </div>
 
-                        </div>
-                        <div class="contacts__info__item">
-                            <div class="svg-img">
-                                {% include '../svg/map/Pochta-red.njk' %}
                             </div>
-                            <div class="item-cont">
-                                <p class="contacts__text">
-                                    info@сquared.com
-                                </p>
+                            <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div class="svg-img">
+                                    {% include '../svg/map/Pochta-red.njk' %}
+                                </div>
+                                <div class="item-cont">
+                                    <p class="contacts__text">
+                                        info@сquared.com
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="contacts__info__item">
+
+                        <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 
                             <div class="svg-img">
                                 {% include '../svg/map/Marker-red.njk' %}
                             </div>
                             <div class="item-cont">
                                 <p class="contacts__text">
-                                    Москва, Варшавское ш., д. 39
+                                    <span itemprop="addressLocality">Москва</span>, <span itemprop="streetAddress">Варшавское ш., д. 39</span>
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class=" btn btn--main btn--l btn-wrap__desc">
+                    <div class=" btn btn--main btn--m btn-wrap__desc">
                         Отправить запрос
                     </div>
                 </div>
@@ -54,7 +57,7 @@
                 <div class="contacts__map" id="map">
 
                 </div>
-                <div class="btn btn--main btn--l btn-wrap__mob">
+                <div class="btn btn--main btn--m btn-wrap__mob">
                     Отправить запрос
                 </div>
             </div>

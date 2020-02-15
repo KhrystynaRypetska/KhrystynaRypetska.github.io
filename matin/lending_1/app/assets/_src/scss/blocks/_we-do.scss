@@ -25,6 +25,9 @@
       font-size: 30px;
       font-weight: 700;
       line-height: 56.88px;
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
     }
     &__text {
       text-align: center;
@@ -47,6 +50,12 @@
     width: 100%;
   
     margin-bottom: 200px;
+    @media (max-width: 992px) {
+      margin-bottom: 50px;
+    }
+    @media (max-width: 480px) {
+      margin-bottom: 30px;
+    }
     
     p {
       color: #ffffff;
