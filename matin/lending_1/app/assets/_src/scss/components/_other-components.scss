@@ -12,11 +12,14 @@
     
     padding: 20px 10px 30px;
   
-    /*for animation*/
-    //opacity: 0;
+    //*for animation*
+    opacity: 0;
     
     @media (min-width: 769px ) {
       position: relative;
+    }
+    @media (max-width:480px ) {
+      opacity: 1;
     }
   }
 

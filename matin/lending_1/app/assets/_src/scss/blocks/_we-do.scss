@@ -9,6 +9,8 @@
     align-items: flex-start;
     
     margin-bottom: 170px;
+    
+   
     &__item {
       display: flex;
       justify-content: center;
@@ -26,17 +28,29 @@
       font-weight: 700;
       line-height: 56.88px;
       @media (max-width: 768px) {
-        font-size: 25px;
+        max-width: 30%;
+        font-size: 20px;
+      }
+      @media (max-width: 480px) {
+        font-size: 15px;
       }
     }
     &__text {
+      
       text-align: center;
       color: #ffffff;
       font-family: $fontSourceSansPro;
       font-size: 19px;
       font-weight: 400;
-      line-height: 31.6px;
-      
+      @media (max-width: 768px) {
+        max-width: 70%;
+      }
+      @media (max-width: 480px) {
+        font-size: 15px;
+        text-align: left;
+        font-weight: 300;
+
+      }
       
       
     }
@@ -91,9 +105,13 @@
         width: 100%;
       }
       &__number {
-        padding-right: 15px;
+        padding-right: 20px;
       }
     }
-    
+  }
+  @media (max-width: 480px){
+    .counter {
+      margin-bottom: 10px;
+    }
   }
 }

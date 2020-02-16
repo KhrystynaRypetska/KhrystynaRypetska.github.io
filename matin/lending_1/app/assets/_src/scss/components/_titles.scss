@@ -57,10 +57,12 @@
   .we-do-title {
     margin-top: 250px;
     @media (max-width: 992px) {
-      margin-top: 100px;
+      margin-top: 70px;
+      margin-bottom: 40px;
     }
     @media (max-width: 480px) {
-      margin-top: 50px;
+      margin-top: 25px;
+      margin-bottom: 5px;
     }
   }
   
