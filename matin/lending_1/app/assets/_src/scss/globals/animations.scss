@@ -296,6 +296,70 @@
       }
       
     }
+  
+  
+    //.process line
+    .proc-line-1 {
+      animation: ab-line-w .2s linear forwards;
+    }
+    .proc-line-2 {
+      animation: ab-line-h .2s linear forwards;
+      animation-delay: 0.2s;
+    }
+    .proc-line-3 {
+      animation: ab-line-w .2s linear forwards;
+      animation-delay: 0.4s;
+    }
+    .proc-line-4 {
+      animation: ab-line-w .2s linear forwards;
+      animation-delay: .6s;
+    }
+    .proc-line-5 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: .8s;
+    }
+    .proc-line-6 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: 1s;
+    }
+    .proc-line-7 {
+      animation: ab-line-h .5s linear forwards;
+      animation-delay: 1.2s;
+    }
+    .proc-line-8 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: 1.4s;
+    }
+    
+    //.process__wrapper
+    .process__wrapper {
+      .grid-item-1 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .0s;
+      }
+      .grid-item-2 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .2s;
+      }
+      .grid-item-3 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .4s;
+      }
+      .grid-item-4 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .6s;
+      }
+      .grid-item-5 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .8s;
+      }
+    }
+    
   }
 }
 
