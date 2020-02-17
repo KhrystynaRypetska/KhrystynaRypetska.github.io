@@ -23,6 +23,7 @@
         <div class="main-wrapper">
             <main class="main">
                 <section class="section--banner section" id="banner">
+                    <div class="section--banner__bg"></div>
                     <header>
                         <div class="container--nav">
                             <div class="header">
@@ -53,7 +54,7 @@
                                                 }
 
                                                 #nav-logo .st5 {
-                                                    font-family: 'Source Sans Pro';
+                                                    font-family: 'MagistralC';
                                                 }
 
                                                 #nav-logo .st6 {
@@ -201,13 +202,13 @@
                                 <div class="lines-5" style="background-image: url('./assets/img/svg/line1.svg')"></div>
                                 <a href="#clients" class="btn btn--main btn--m"> Оставить запрос </a>
                             </div>
-                            <h3 class="section__title we-do-title"> Наши достижения </h3>
                         </div>
                     </div>
                 </section>
                 <section class="section--we-do section" id="we-do">
                     <div class="container">
                         <div class="we-do">
+                            <h3 class="section__title we-do-title"> Наши достижения </h3>
                             <div class="counter">
                                 <div class="counter__item">
                                     <p class="counter__number"><span class="js--count">138</span></p>
@@ -233,8 +234,10 @@
                             </div>
                         </div>
                     </div>
+                    <div class="section--we-do__bg"></div>
                 </section>
                 <section class="section--about-us section" id="about-us">
+                    <div class="section--about-us__bg"></div>
                     <div class="container">
                         <div class="about-us">
                             <h3 class="section__title"> Почему выбирают нас? </h3>
@@ -984,21 +987,25 @@
                             <div class="contacts-form">
                                 <h3 class="section__title"> Заполните запрос на проект </h3>
                                 <form action="#" method="get" autocomplete="on">
+                                    <h3 class="form__description"></h3>
                                     <div class="form__wrapper">
                                         <div class="form">
                                             <div class="form__fields">
-                                                <p class="form__field">
-                                                    <input class="input" type="email" name="email" id="email">
+                                                <div class="form__field">
+                                                    <input class="input input_email" type="email" name="email" id="email">
                                                     <label for="email">Ваш Email <span> *</span></label>
-                                                </p>
-                                                <p class="form__field">
-                                                    <input class="input" type="text" name="name" id="name">
+                                                    <div class="form__field__error form__field__error_email"></div>
+                                                </div>
+                                                <div class="form__field">
+                                                    <input class="input input_name" type="text" name="name" id="name">
                                                     <label for="name">Ваше имя<span> *</span></label>
-                                                </p>
-                                                <p class="form__field">
-                                                    <input class="input" type="tel" name="tel" id="tel">
+                                                    <div class="form__field__error form__field__error_name"></div>
+                                                </div>
+                                                <div class="form__field">
+                                                    <input class="input input_tel" type="tel" name="tel" id="tel">
                                                     <label for="tel">Ваш номер телефона</label>
-                                                </p>
+                                                    <div class="form__field__error form__field__error_tel"></div>
+                                                </div>
                                             </div>
                                             <div class="form__textarea">
                                                 <p class="form__field ">
@@ -1133,7 +1140,7 @@
                                             }
 
                                             #nav-logo .st5 {
-                                                font-family: 'Source Sans Pro';
+                                                font-family: 'MagistralC';
                                             }
 
                                             #nav-logo .st6 {
@@ -1197,7 +1204,7 @@
                                             }
 
                                             #SmartLogo .st7 {
-                                                font-family: 'Source Sans Pro';
+                                                font-family: 'MagistralC';
                                             }
 
                                             #SmartLogo .st8 {
@@ -1280,7 +1287,7 @@
                                             }
 
                                             #PCBuildLogo .st6 {
-                                                font-family: 'Source Sans Pro';
+                                                font-family: 'MagistralC';
                                             }
 
                                             #PCBuildLogo .st7 {

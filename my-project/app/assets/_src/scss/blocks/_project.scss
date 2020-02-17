@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
+  
+  position: relative;
+  
   &__heading {
     width: 15%;
     flex-wrap: wrap;

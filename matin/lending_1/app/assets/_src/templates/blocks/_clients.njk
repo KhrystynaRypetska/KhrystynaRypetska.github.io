@@ -25,23 +25,28 @@
                 <h3 class="section__title">
                     Заполните запрос на проект
                 </h3>
+
                 <form  action="#" method="get" autocomplete="on">
+                    <h3 class="form__description"></h3>
                     <div class="form__wrapper">
                         <div class="form">
 
-                            <div class="form__fields">
-                                <p class="form__field">
-                                    <input class="input" type="email" name="email" id="email">
+                            <div  class="form__fields">
+                                <div class="form__field">
+                                    <input class="input input_email" type="email" name="email" id="email">
                                     <label for="email">Ваш Email <span> *</span></label>
-                                </p>
-                                <p class="form__field">
-                                    <input class="input" type="text" name="name" id="name">
+                                     <div class="form__field__error form__field__error_email"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input class="input input_name" type="text" name="name" id="name">
                                     <label for="name">Ваше имя<span> *</span></label>
-                                </p>
-                                <p class="form__field">
-                                    <input class="input" type="tel" name="tel" id="tel">
+                                    <div class="form__field__error form__field__error_name"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input class="input input_tel" type="tel" name="tel" id="tel">
                                     <label for="tel">Ваш номер телефона</label>
-                                </p>
+                                    <div class="form__field__error form__field__error_tel"></div>
+                                </div>
 
                             </div>
 
