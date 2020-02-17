@@ -1,5 +1,4 @@
 
-
 export default class ScrollingDeal {
   constructor(items = 'section', animateClassName = 'animate') {
     this.isScrolling = false
@@ -19,13 +18,25 @@ export default class ScrollingDeal {
   }
 
   isPartiallyVisible(el) {
+    //element position x y
     let elementBoundary = el.getBoundingClientRect()
-    let top = elementBoundary.top
-    let bottom = elementBoundary.bottom
 
-    let height = elementBoundary.height
+    //elem position top & bottom
+    let itemTop = Math.floor(elementBoundary.top)
+    let itemBottom = Math.floor(elementBoundary.bottom)
+    let itemHeight = Math.floor(elementBoundary.height)
 
-    return ((top + height / 2 >= 0) && (height + window.innerHeight / 2 >= bottom))
+    //window width
+    let windowHeight = window.innerHeight
+
+    console.log()
+
+    //return boolean
+    return ((itemTop + itemHeight - this.getPercentVal(itemHeight, 10) >= 0) && (itemHeight + windowHeight - this.getPercentVal(itemHeight, 10) >= itemBottom))
+  }
+
+  getPercentVal(el, percent) {
+    return Math.floor((el / 100) * percent)
   }
 
   isFullyVisible(el) {
@@ -39,7 +50,7 @@ export default class ScrollingDeal {
   scrolling(event, className = `${this.className}`) {
     this.listItems.filter((item, index)=> {
 
-      if (this.isPartiallyVisible(item, index) && this.isPartiallyVisible(item, index)) {
+      if (this.isPartiallyVisible(item, index)) {
         item.classList.add(`${className}`)
       }
       else {
