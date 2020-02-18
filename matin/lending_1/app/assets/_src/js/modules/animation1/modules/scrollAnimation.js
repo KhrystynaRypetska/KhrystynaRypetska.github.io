@@ -48,13 +48,16 @@ export default class ScrollingDeal {
   }
 
   scrolling(event, className = `${this.className}`) {
+
     this.listItems.filter((item, index)=> {
+
+      if(item.classList.contains(`${className}`)) return
 
       if (this.isPartiallyVisible(item, index)) {
         item.classList.add(`${className}`)
       }
       else {
-        item.classList.remove(`${className}`)
+        return false
       }
     })
   }
