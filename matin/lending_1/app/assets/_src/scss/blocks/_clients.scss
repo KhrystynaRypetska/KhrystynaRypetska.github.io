@@ -1,5 +1,26 @@
 .clients {
   position: relative;
+  padding-bottom: 200px;
+  
+  @media (max-width: 1024px) {
+    padding-bottom: 100px;
+  }
+  @media (max-width: 360px) {
+    padding-bottom: 40px;
+  }
+  .section__title {
+    margin-bottom: 80px;
+  }
+  
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
   .contacts-form {
     //padding-bottom: 150px;
     @media (max-width: 768px) {
@@ -7,15 +28,44 @@
     }
   }
   &__wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 120px;
+    &__desc {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      padding-bottom: 200px;
+      @media (max-width: 992px) {
+        padding-bottom: 120px;
+      }
+      
+      @media (max-width: 480px) {
+        display: none;
+      }
+  
+  
+    }
+    
+    &__mob {
+      display: none;
+      @media (max-width: 480px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      
+    }
+    @media (max-width: 1024px) {
+      padding-bottom: 100px;
+    }
     @media (max-width: 992px) {
-      margin-bottom: 50px;
+      padding-bottom: 50px;
     }
     @media (max-width: 480px) {
-      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    @media (max-width: 360px) {
+      padding-bottom: 0;
     }
   }
   
@@ -26,12 +76,27 @@
     
     margin: 20px 10px;
 
-    height: 110px;
-    width: 20%;
+    height: 100px;
+    max-width: 20%;
+    @media (max-width: 769px) {
+      margin: 0 10px;
+      height: 60px;
+    }
+    
+    &:first-child {
+      margin-left: 0;
+    }
+    
+    &:last-child {
+      margin-left: 0;
+    }
     svg {
       height: 100%;
-      width: 100%;
+      //width: 100%;
 
+      @media (max-width: 769px) {
+        width: 100%;
+      }
     }
   }
 }

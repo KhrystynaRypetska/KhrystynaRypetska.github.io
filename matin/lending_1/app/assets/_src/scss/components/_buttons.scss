@@ -14,7 +14,7 @@
   &--main {
     height: 48px;
     
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 25.82px;
     letter-spacing: 0.2px;
@@ -23,6 +23,25 @@
     background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
   }
   
+  &--f {
+    color: #020101;
+    
+    background-color: #767676 ;
+    height: 48px;
+
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25.82px;
+    letter-spacing: 0.2px;
+  
+    box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
+    &:active {
+      background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
+    }
+  }
+  
+  
+  
   //small
   &--form {
   
@@ -30,13 +49,19 @@
   
   //medium
   &--m {
-    max-width: 230px;
+    max-width: 275px;
     width: 100%;
+    @media (max-width: 480px) {
+      max-width: 210px;
+    }
   }
   
   //large
   &--l {
-    max-width: 275px;
+    max-width: 315px;
     width: 100%;
+    @media (max-width: 480px) {
+      max-width: 210px;
+    }
   }
 }

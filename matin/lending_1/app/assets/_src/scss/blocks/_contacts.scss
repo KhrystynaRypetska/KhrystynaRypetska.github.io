@@ -18,9 +18,13 @@
     font-weight: 400;
     line-height: 18px;
     max-width: 80%;
-    align-self: flex-end;
+    align-self: flex-start;
     
     display: inline;
+    
+    @media (max-width:1024px ) {
+      align-self: flex-end;
+    }
     
   }
   
@@ -37,6 +41,7 @@
     justify-content: space-between;
     align-content: flex-start;
     width: 40%;
+   
     
     color: #ffffff;
     @media (max-width: 768px) {
@@ -48,7 +53,9 @@
         width: 80%;
       }
     }
+    
     a {
+      text-decoration: none;
       color: #ffffff;
       font-family: $fontSourceSansPro;
       font-size: 15px;
@@ -95,6 +102,7 @@
   .btn-wrap {
     display: flex;
     align-self: flex-end;
+   
     &__mob {
       display: none;
       @media (max-width: 768px) {
@@ -104,7 +112,10 @@
       }
     }
     &__desc {
-      align-self: flex-end;
+      align-self: flex-start;
+      @media (max-width:1024px ) {
+        align-self: flex-end;
+      }
       @media (max-width: 768px) {
         display: none;
       }
@@ -116,6 +127,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  //padding-left: 5%;
   @media (max-width: 768px) {
     justify-content: center;
     flex-direction: column;
@@ -131,6 +143,8 @@
     line-height: 20px;
     margin: 20px 0 10px;
     
+  
+  
     a {
       color: #b7000e;
       text-decoration: none;
@@ -159,11 +173,14 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    max-width: 730px;
+    width: 100%;
+    span {
+      color: #b7000e;
+    }
   }
   
   &__fields {
-    width: 30%;
+    width: 33%;
     
     flex-direction: column;
     
@@ -202,7 +219,7 @@
   }
   
   &__textarea {
-    width: calc(70% - 20px);
+    width: calc(67% - 20px);
     display: flex;
     justify-content: flex-start;
     min-height: 100%;
@@ -260,9 +277,6 @@
   
 }
 
-//span {
-//  color: #b7000e;
-//}
 
 .form__checkbox {
   margin: 15px 0 30px;
@@ -294,7 +308,7 @@
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 10px;
   width: 34px;
   height: 34px;
   

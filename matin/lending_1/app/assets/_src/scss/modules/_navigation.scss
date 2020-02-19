@@ -1,21 +1,22 @@
 .nav {
   display: flex;
- 
   &__list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     
     list-style-type: none;
+    width: 90%;
     margin: 0 auto;
     padding: 0;
+    
   }
   
   &__item {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     
-    padding: 0 20px;
     
     a {
       text-decoration: none;
@@ -53,6 +54,7 @@
   &__contacts {
     display: flex;
     align-items: center;
+    width: 20%;
   }
 }
 
@@ -80,17 +82,27 @@
     
     &__list {
       width: 100%;
-      justify-content: space-between;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
       flex-wrap: wrap;
     }
     
     &__item {
       width: 30%;
-      padding: 10px 0 ;
+      padding: 10px 0;
+      a {
+        text-align: right;
+        font-size: 20px;
+        
+      }
     }
   }
   
   .tel {
+     a {
+    font-size: 19px;
+    }
     &--desc {
       display: none;
     }
@@ -100,10 +112,27 @@
     }
   }
 }
-
+@media (max-width: 360px) {
+  .nav {
+    &__item {
+      a {
+        font-size: 15px;
+        
+      }
+    }
+  }
+  .tel {
+    a {
+      font-size: 15px;
+    }
+  }
+  &__contacts {
+    width: 25%;
+  }
+}
 .wrapper-dropdown-1 {
   position: relative;
-  width: 55px;
+  width: 60px;
   padding: 3px;
   margin: 0 auto;
   
@@ -120,11 +149,15 @@
     font-family: $fontSourceSansPro;
     font-size: 15px;
     font-weight: 300;
+    img {
+      padding-right: 6px;
+    }
    
     a {
       color: #fff;
       font: inherit;
       text-decoration: none;
+      
     }
   }
   
@@ -176,6 +209,10 @@
   &.active {
     .result {
       opacity: 0;
+      img {
+        padding-right: 6px;
+        margin: 0 auto;
+      }
     }
     &:after {
       border-top: 0;

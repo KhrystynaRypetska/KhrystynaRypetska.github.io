@@ -4,7 +4,7 @@
             <h3 class="section__title">
                 Наши клиенты
             </h3>
-            <div class="clients__wrap">
+            <div class="clients__wrap__desc">
                 <div class="clients__item">
                     {% include '../svg/_partners-Rostec.njk' %}
                 </div>
@@ -21,6 +21,24 @@
                     {% include '../svg/_partners-Amerika.njk' %}
                 </div>
             </div>
+
+            <div class="clients__wrap__mob">
+                <div class="clients__item">
+                    {% include '../svg/_partners-Rostec.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../svg/_splav.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../svg/_partners-43.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../svg/_partners-Amerika.njk' %}
+                </div>
+            </div>
+
+
+
             <div class="contacts-form">
                 <h3 class="section__title">
                     Заполните запрос на проект
@@ -34,7 +52,7 @@
                             <div  class="form__fields">
                                 <div class="form__field">
                                     <input class="input input_email" type="email" name="email" id="email">
-                                    <label for="email">Ваш Email <span> *</span></label>
+                                    <label for="email">Ваш Email <span> *</span> </label>
                                      <div class="form__field__error form__field__error_email"></div>
                                 </div>
                                 <div class="form__field">
@@ -63,10 +81,10 @@
 
                         <div class="form__checkbox">
                             <input type="checkbox" id="check">
-                            <label for="check" class="form__text">Согласен с       <a href="Polit_konf.doc" class="break" > Политикой конфеденциальности</a></label>
+                            <label for="check" class="form__text">Согласен с <a href="Polit_konf.doc" class="break" > Политикой конфеденциальности</a></label>
                         </div>
 
-                        <button class="clients-form btn btn--main btn--l" type="submit">
+                        <button class="clients-form btn btn--l  btn--f" type="submit">
                             Отправить запрос
                         </button>
                     </div>

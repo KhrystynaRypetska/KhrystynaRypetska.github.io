@@ -4,24 +4,25 @@
   align-items: center;
   justify-content: space-between;
   
-  padding: 15px 0;
+  padding: 16px 0;
   @media (max-width: 992px) {
     flex-wrap: wrap;
   }
   
   &__navigation {
+    width: 100%;
     margin: 0 auto;
     @media (max-width: 992px) {
       order: 1;
-      padding: 10px 0;
+      padding: 10px 0 0 0;
       width: 100%;
     }
   }
   &__logo {
     flex-shrink: 0;
-    height: 85px;
+    height: 84px;
     width: 85px;
-    box-shadow: 0 0 115px 10px rgba(183, 0, 14, 0.35);
+    box-shadow: 0 0 115px 10px rgba(183, 28, 38, 1.35);
     
     @media (max-width: 1024px) {
       height: 68px;

@@ -1,7 +1,5 @@
 .about-us {
   position: relative;
-  padding-bottom: 50px;
-  //z-index: 4;
   
   &__wrapper{
     position: relative;
@@ -14,6 +12,7 @@
     
     
     @media (min-width: 1024px) {
+      margin-bottom: 90px;
       padding: 0 15px;
       grid-gap: 30px;
     }

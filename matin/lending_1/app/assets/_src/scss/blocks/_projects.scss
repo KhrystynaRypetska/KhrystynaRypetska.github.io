@@ -1,5 +1,11 @@
 .projects {
   position: relative;
+  @media (max-width: 1024px) {
+    margin-bottom:150px;
+  }
+  @media (max-width: 768px) {
+    margin-bottom:110px;
+  }
 }
 
 .carousel {
