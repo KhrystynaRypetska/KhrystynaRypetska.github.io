@@ -761,44 +761,44 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 
 .about-us [class^='ab-line-'] { display: block; position: absolute; z-index: 3; }
 
-@media (min-width: 769px) { .about-us .ab-line-1, .about-us .ab-line-6 { max-width: 0; /*72%*/ width: 93%; height: 2px; top: 40px; left: 60%; background-position: left; } }
+@media (min-width: 769px) { .about-us .ab-line-1, .about-us .ab-line-6 { max-width: 0; /*72%*/ width: 93%; height: 1px; top: 40px; left: 60%; background-position: left; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-1, .about-us .ab-line-6 { width: 82%; left: 64%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-4, .about-us .ab-line-2 { max-width: 0; /*72%*/ width: 93%; height: 2px; top: 40px; right: -54%; background-position: right; } }
+@media (min-width: 769px) { .about-us .ab-line-4, .about-us .ab-line-2 { max-width: 0; /*72%*/ width: 93%; height: 1px; top: 40px; right: -54%; background-position: right; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-4, .about-us .ab-line-2 { width: 90%; right: -53%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-3 { height: 2px; max-width: 0; width: 100%; left: 61%; top: 40px; background-position: left; } }
+@media (min-width: 769px) { .about-us .ab-line-3 { height: 1px; max-width: 0; width: 100%; left: 61.5%; top: 40px; background-position: left; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-3 { width: 95%; left: 64%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-5 { max-width: 0; width: 100%; height: 2px; top: 40px; left: -61%; } }
+@media (min-width: 769px) { .about-us .ab-line-5 { max-width: 0; width: 100%; height: 1px; top: 40px; left: -60.5%; } }
 
-@media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-5 { left: -59%; } }
+@media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-5 { left: -58.5%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-7 { top: 40px; max-width: 0; right: -61%; width: 99%; height: 2px; background-position: left; } }
+@media (min-width: 769px) { .about-us .ab-line-7 { top: 40px; max-width: 0; right: -60.5%; width: 99%; height: 1px; background-position: left; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-7 { right: -59%; width: 95%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-8 { top: -95%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 120%; width: 2px; background-position: top; } }
+@media (min-width: 769px) { .about-us .ab-line-8 { top: -95.5%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 120%; width: 1px; background-position: top; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-8 { top: -91%; height: 95%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-10, .about-us .ab-line-9 { top: 88%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 43%; width: 2px; background-position: top; } }
+@media (min-width: 769px) { .about-us .ab-line-10, .about-us .ab-line-9 { top: 88%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 43%; width: 1px; background-position: top; } }
 
-@media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-10, .about-us .ab-line-9 { top: 85%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 42%; } }
+@media (min-width: 769px) and (max-width: 1024px) { .about-us .ab-line-10, .about-us .ab-line-9 { top: 85%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 41%; } }
 
-@media (min-width: 769px) { .about-us .ab-line-11 { top: 86%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 48%; width: 2px; background-position: top; } }
+@media (min-width: 769px) { .about-us .ab-line-11 { top: 86%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 48%; width: 1px; background-position: top; } }
 
 @media (max-width: 768px) and (min-width: 481px) { .about-us .ab-line-4 { top: 30%; }
-  .about-us .ab-line-4, .about-us .ab-line-3 { max-width: 0; width: 36%; height: 2px; right: -webkit-calc(50%); right: calc(50%); -webkit-transform: translateX(-webkit-calc(50% + 8.8px)); -ms-transform: translateX(calc(50% + 8.8px)); transform: translateX(calc(50% + 8.8px)); background-position: 50% 50%; }
+  .about-us .ab-line-4, .about-us .ab-line-3 { max-width: 0; width: 36%; height: 1px; right: -webkit-calc(50%); right: calc(50%); -webkit-transform: translateX(-webkit-calc(50% + 8.8px)); -ms-transform: translateX(calc(50% + 8.8px)); transform: translateX(calc(50% + 8.8px)); background-position: 50% 50%; }
   .about-us .ab-line-6, .about-us .ab-line-7, .about-us .ab-line-1, .about-us .ab-line-11, .about-us .ab-line-10, .about-us .ab-line-9, .about-us .ab-line-2 { display: none; }
   .about-us .ab-line-3 { top: 56%; }
-  .about-us .ab-line-8 { top: 105px; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 100%; width: 2px; background-repeat: repeat-y; background-position: top; } }
+  .about-us .ab-line-8 { top: 105px; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 100%; width: 1px; background-repeat: repeat-y; background-position: top; } }
 
-@media (max-width: 479px) { .about-us .ab-line-1, .about-us .ab-line-2, .about-us .ab-line-3, .about-us .ab-line-4, .about-us .ab-line-5, .about-us .ab-line-6, .about-us .ab-line-7 { height: 2px; max-width: 100%; width: 68px; left: 50%; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); -webkit-transform-origin: left center; -ms-transform-origin: left center; transform-origin: left center; background-position: top; }
-  .about-us .ab-line-8, .about-us .ab-line-9 { width: 2px; max-height: 100%; height: 68px; left: 50%; background-position: left; }
+@media (max-width: 479px) { .about-us .ab-line-1, .about-us .ab-line-2, .about-us .ab-line-3, .about-us .ab-line-4, .about-us .ab-line-5, .about-us .ab-line-6, .about-us .ab-line-7 { height: 1px; max-width: 100%; width: 68px; left: 50%; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); -webkit-transform-origin: left center; -ms-transform-origin: left center; transform-origin: left center; background-position: top; }
+  .about-us .ab-line-8, .about-us .ab-line-9 { width: 1px; max-height: 100%; height: 68px; left: 50%; background-position: left; }
   .about-us .ab-line-1 { top: -33px; width: 59px; }
   .about-us .ab-line-2 { top: 10%; }
   .about-us .ab-line-3 { top: 22.5%; }
@@ -889,20 +889,20 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 
 .process [class^='proc-line-'] { display: block; position: absolute; z-index: 5; }
 
-@media (min-width: 769px) { .process .proc-line-1, .process .proc-line-3, .process .proc-line-6 { max-width: 0; width: 100%; height: 2px; top: 42px; }
-  .process .proc-line-1, .process .proc-line-3 { left: -webkit-calc(50% + 31px); left: calc(50% + 31px); background-position: left; } }
+@media (min-width: 769px) { .process .proc-line-1, .process .proc-line-3, .process .proc-line-6 { max-width: 0; width: 100%; height: 1px; top: 42px; }
+  .process .proc-line-1, .process .proc-line-3 { left: -webkit-calc(50.5% + 31px); left: calc(50.5% + 31px); background-position: left; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .process .proc-line-1, .process .proc-line-3 { left: -webkit-calc(50% + 26px); left: calc(50% + 26px); } }
 
-@media (min-width: 769px) { .process .proc-line-6 { right: -webkit-calc(50% + 31px); right: calc(50% + 31px); } }
+@media (min-width: 769px) { .process .proc-line-6 { right: -webkit-calc(49.5% + 31px); right: calc(49.5% + 31px); } }
 
-@media (min-width: 769px) and (max-width: 1024px) { .process .proc-line-6 { right: -webkit-calc(50% + 21px); right: calc(50% + 21px); } }
+@media (min-width: 769px) and (max-width: 1024px) { .process .proc-line-6 { right: -webkit-calc(49.5% + 21px); right: calc(49.5% + 21px); } }
 
-@media (min-width: 769px) { .process .proc-line-2, .process .proc-line-4, .process .proc-line-5, .process .proc-line-7, .process .proc-line-8 { max-height: 0; height: 46%; width: 2px; background-position: top; } }
+@media (min-width: 769px) { .process .proc-line-2, .process .proc-line-4, .process .proc-line-5, .process .proc-line-7, .process .proc-line-8 { max-height: 0; height: 46%; width: 1px; background-position: top; } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .process .proc-line-2, .process .proc-line-4, .process .proc-line-5, .process .proc-line-7, .process .proc-line-8 { height: 40%; } }
 
-@media (min-width: 769px) { .process .proc-line-2, .process .proc-line-4, .process .proc-line-5, .process .proc-line-7 { top: -38.5%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); } }
+@media (min-width: 769px) { .process .proc-line-2, .process .proc-line-4, .process .proc-line-5, .process .proc-line-7 { top: -38%; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); } }
 
 @media (min-width: 769px) and (max-width: 1024px) { .process .proc-line-2, .process .proc-line-4, .process .proc-line-5, .process .proc-line-7 { top: -35.5%; } }
 
@@ -910,18 +910,18 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 
 @media (min-width: 769px) { .process .proc-line-8 { top: 87%; height: 51%; } }
 
-@media (max-width: 768px) { .process .proc-line-1, .process .proc-line-3, .process .proc-line-4 { max-width: 0; width: -webkit-calc(25% - 20px); width: calc(25% - 20px); height: 2px; right: 50%; }
+@media (max-width: 768px) { .process .proc-line-1, .process .proc-line-3, .process .proc-line-4 { max-width: 0; width: -webkit-calc(25% - 20px); width: calc(25% - 20px); height: 1px; right: 50%; }
   .process .proc-line-1 { top: 40px; right: 50%; }
-  .process .proc-line-2 { top: 40px; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 100%; width: 2px; }
+  .process .proc-line-2 { top: 40px; right: -webkit-calc(50% - 1px); right: calc(50% - 1px); max-height: 0; height: 100%; width: 1px; }
   .process .proc-line-3 { top: -webkit-calc(16% + 43px); top: calc(16% + 43px); right: auto; left: 50%; }
   .process .proc-line-4 { background-image: url(../img/svg/ab-line-g.svg) !important; top: -webkit-calc(33.3% + 45px); top: calc(33.3% + 45px); }
-  .process .proc-line-5 { background-image: url(../img/svg/ab-line-g.svg) !important; top: -webkit-calc(51.3% + 45px); top: calc(51.3% + 45px); max-width: 0; height: 2px; width: 20%; right: 30%; }
-  .process .proc-line-6 { top: 75%; max-width: 0; height: 2px; width: 20%; right: 50%; }
+  .process .proc-line-5 { background-image: url(../img/svg/ab-line-g.svg) !important; top: -webkit-calc(51.3% + 45px); top: calc(51.3% + 45px); max-width: 0; height: 1px; width: 20%; right: 30%; }
+  .process .proc-line-6 { top: 75%; max-width: 0; height: 1px; width: 20%; right: 50%; }
   .process .proc-line-7 { display: none; }
   .process .proc-line-8 { display: none; } }
 
-@media (max-width: 479px) { .process .proc-line-1, .process .proc-line-3, .process .proc-line-4, .process .proc-line-5, .process .proc-line-6 { max-width: 100%; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); width: 16%; height: 2px; left: 41%; top: -1%; }
-  .process .proc-line-2 { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); top: 36.5%; max-height: 100%; height: 5.7%; width: 2px; right: 51%; }
+@media (max-width: 479px) { .process .proc-line-1, .process .proc-line-3, .process .proc-line-4, .process .proc-line-5, .process .proc-line-6 { max-width: 100%; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); width: 16%; height: 1px; left: 41%; top: -1%; }
+  .process .proc-line-2 { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); top: 36.5%; max-height: 100%; height: 5.7%; width: 1px; right: 51%; }
   .process .proc-line-3 { top: 19%; }
   .process .proc-line-4 { top: 101%; }
   .process .proc-line-5 { top: 59.5%; }

@@ -84,7 +84,7 @@
     .ab-line-6{
       max-width: 0; /*72%*/
       width: 93%;
-      height: 2px;
+      height: 1px;
   
       top: 40px;
       left: 60%;
@@ -100,7 +100,7 @@
     .ab-line-2{
       max-width: 0; /*72%*/
       width: 93%;
-      height: 2px;
+      height: 1px;
 
       top: 40px;
       right: -54%;
@@ -113,10 +113,10 @@
     }
 
     .ab-line-3 {
-      height: 2px;
+      height: 1px;
       max-width: 0;
       width: 100%;
-      left: 61%;
+      left: 61.5%;
       top: 40px;
       
       background-position: left;
@@ -130,22 +130,22 @@
     .ab-line-5 {
       max-width: 0;
       width: 100%;
-      height: 2px;
+      height: 1px;
     
       top: 40px;
-      left: -61%;
+      left: -60.5%;
       
       @media (max-width: 1024px) {
-        left: -59%;
+        left: -58.5%;
       }
     }
   
     .ab-line-7 {
       top: 40px;
       max-width: 0;
-      right: -61%;
+      right: -60.5%;
       width: 99%;
-      height:  2px;
+      height:  1px;
       background-position:left;
       @media (max-width: 1024px) {
         right: -59%;
@@ -155,13 +155,13 @@
     }
   
     .ab-line-8 {
-      top: -95%;;
+      top: -95.5%;;
       right: calc(50% - 1px);
     
       max-height: 0;
       height: 120%;
     
-      width: 2px;
+      width: 1px;
       background-position: top;
       
       @media (max-width: 1024px) {
@@ -178,14 +178,14 @@
       max-height: 0;
       height: 43%;
     
-      width: 2px;
+      width: 1px;
       background-position: top;
 
       @media (max-width: 1024px) {
         top: 85%;
         right: calc(50% - 1px);
         max-height: 0;
-        height: 42%;
+        height: 41%;
       }
     }
     
@@ -194,7 +194,7 @@
       right: calc(50% - 1px);
       max-height: 0;
       height: 48%;
-      width: 2px;
+      width: 1px;
       background-position: top;
     }
   }
@@ -208,7 +208,7 @@
     .ab-line-3 {
       max-width: 0;
       width: 36%;
-      height: 2px;
+      height: 1px;
       right: calc(50%);
      
       transform: translateX(calc(50% + 8.8px));
@@ -234,7 +234,7 @@
       right: calc(50% - 1px);
       max-height: 0;
       height: 100%;
-      width: 2px;
+      width: 1px;
       background-repeat: repeat-y;
       background-position: top;
     }
@@ -249,7 +249,7 @@
     .ab-line-5,
     .ab-line-6,
     .ab-line-7{
-      height: 2px;
+      height: 1px;
       max-width: 100%;
       width: 68px;
      
@@ -260,7 +260,7 @@
     }
     .ab-line-8,
     .ab-line-9{
-      width: 2px;
+      width: 1px;
       max-height: 100%;
       height: 68px;
       
