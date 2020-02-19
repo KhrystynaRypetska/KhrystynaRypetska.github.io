@@ -33,21 +33,21 @@
       justify-content: space-between;
       align-items: center;
   
-      padding-bottom: 200px;
-      @media (max-width: 992px) {
+      padding-bottom: 250px;
+      
+      @media (max-width: 1024px) {
         padding-bottom: 120px;
       }
       
-      @media (max-width: 480px) {
+      @media (max-width: 479px) {
         display: none;
       }
-  
-  
+      
     }
     
     &__mob {
       display: none;
-      @media (max-width: 480px) {
+      @media (max-width: 479px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -61,7 +61,7 @@
     @media (max-width: 992px) {
       padding-bottom: 50px;
     }
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       padding-bottom: 20px;
     }
     @media (max-width: 360px) {

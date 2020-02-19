@@ -51,7 +51,7 @@
   &--m {
     max-width: 275px;
     width: 100%;
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       max-width: 210px;
     }
   }
@@ -60,7 +60,7 @@
   &--l {
     max-width: 315px;
     width: 100%;
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       max-width: 210px;
     }
   }

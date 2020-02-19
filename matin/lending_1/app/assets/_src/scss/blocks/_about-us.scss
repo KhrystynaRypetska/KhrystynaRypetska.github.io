@@ -56,7 +56,7 @@
       
     }
     
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       grid-template-columns: repeat(1, 1fr);
       margin-bottom: 50px;
     }
@@ -241,7 +241,7 @@
 
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 479px) {
     .ab-line-1,
     .ab-line-2,
     .ab-line-3,
