@@ -28,6 +28,32 @@
     animation-delay: 1.25s;
   }
   
+  
+  
+  /*banner plus*/
+  .plus {
+    &.icons-plus {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 1.5s;
+    }
+    &.title-plus {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 2s;
+    }
+    &.btn-plus {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 3s;
+    }
+  }
+  
+  
+  
+  
+  
+  
   /*banner lines end*/
   .icons-block {
     .icons-block__item {

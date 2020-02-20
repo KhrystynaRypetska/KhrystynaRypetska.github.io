@@ -9,6 +9,40 @@
   right: 0;
   bottom: 0;
   margin-top: 9vh;
+  .plus {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    opacity: 0;
+    @media (max-width: 768px) {
+      opacity: 1;
+    }
+   
+    span {
+      position: absolute;
+      background-color: #767676;
+      width: 2px;
+      height: 17px;
+      
+    }
+    .plus-h {
+      transform: rotate(90deg);
+    }
+    &.icons-plus {
+      top: 32%;
+      right: 44%;
+    }
+    &.title-plus {
+      top: 9%;
+      left: 22%;
+    }
+    &.btn-plus {
+      top: 85%;
+      left: 32%;
+    }
+  }
+  
+  
   @media (max-width: 1024px) {
     margin-top: 0;
   }
