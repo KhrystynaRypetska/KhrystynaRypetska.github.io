@@ -1,5 +1,15 @@
 .process {
   position: relative;
+  &__btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @media (min-width: 480px) {
+      opacity: 0;
+      transition: opacity .3s ease-in;
+    }
+  }
   &__wrapper {
     display: grid;
     grid-gap: 20px;
@@ -42,7 +52,7 @@
       position: relative;
     }
     
-    @media (max-width: 767px) and (min-width: 480px) {
+    @media (max-width: 767px) and (min-width: 481px) {
       
       grid-template-rows: repeat(2, 1fr);
       
@@ -69,7 +79,7 @@
       
     }
     
-    @media (max-width: 480px) {
+    @media (max-width: 479px) {
       grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -97,13 +107,13 @@
     .proc-line-6 {
       max-width: 0;
       width: 100%;
-      height: 2px;
+      height: 1px;
       top: 42px;
     }
     
     .proc-line-1,
     .proc-line-3{
-      left: calc(50% + 31px);
+      left: calc(50.5% + 31px);
       background-position: left;
   
       @media (max-width: 1024px) {
@@ -112,9 +122,9 @@
     }
     
     .proc-line-6 {
-      right: calc(50% + 31px);
+      right: calc(49.5% + 31px);
       @media (max-width: 1024px) {
-        right: calc(50% + 21px);
+        right: calc(49.5% + 21px);
       }
     }
     
@@ -125,7 +135,7 @@
     .proc-line-8 {
       max-height: 0;
       height: 46%;
-      width: 2px;
+      width: 1px;
 
       background-position: top;
       
@@ -138,7 +148,7 @@
     .proc-line-4,
     .proc-line-5,
     .proc-line-7{
-      top: -38.5%;
+      top: -38%;
       right: calc(50% - 1px);
       @media (max-width: 1024px) {
         top: -35.5%;
@@ -166,7 +176,7 @@
     .proc-line-4{
       max-width: 0;
       width: calc(25% - 20px);
-      height: 2px;
+      height: 1px;
       right: 50%;
       
     }
@@ -181,7 +191,7 @@
       right: calc(50% - 1px);
       max-height: 0;
       height: 100%;
-      width: 2px;
+      width: 1px;
     }
     
     .proc-line-3{
@@ -198,14 +208,14 @@
   
       top: calc(51.3% + 45px);
       max-width: 0;
-      height:2px;
+      height:1px;
       width: 20%;
       right: 30%;
     }
     .proc-line-6 {
       top: 75%;
       max-width: 0;
-      height:2px;
+      height:1px;
       width: 20%;
       right: 50%;
     }
@@ -218,7 +228,7 @@
   
   }
   
-  @media (max-width: 480px){
+  @media (max-width: 479px){
     .proc-line-1,
     .proc-line-3,
     .proc-line-4,
@@ -227,7 +237,7 @@
       max-width: 100%;
       transform: rotate(90deg);
       width: 16%;
-      height: 2px;
+      height: 1px;
       left: 41%;
       top: -1%;
     }
@@ -236,7 +246,7 @@
       top: 36.5%;
       max-height: 100%;
       height: 5.7%;
-      width: 2px;
+      width: 1px;
       right: 51%;
     }
     .proc-line-3 {

@@ -1,5 +1,11 @@
 .projects {
   position: relative;
+  @media (max-width: 1024px) {
+    margin-bottom:150px;
+  }
+  @media (max-width: 768px) {
+    margin-bottom:110px;
+  }
 }
 
 .carousel {
@@ -31,7 +37,7 @@
       @media (max-width: 768px) {
         left: 10px;
       }
-      @media (max-width: 480px) {
+      @media (max-width: 479px) {
         left: 5px;
       }
       
@@ -51,7 +57,7 @@
       @media (max-width: 768px) {
         right: 10px;
       }
-      @media (max-width: 480px) {
+      @media (max-width: 479px) {
         right: 5px;
       }
       span {

@@ -4,23 +4,30 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-
+  
   position: relative;
   right: 0;
   bottom: 0;
-
+  margin-top: 9vh;
+  @media (max-width: 1024px) {
+    margin-top: 0;
+  }
+  
   &__btn-wrap {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     width: 100%;
     
     /*for animation*/
     .btn {
       opacity: 0;
       transition: opacity .5s ease-in-out;
+      @media (max-width: 479px) {
+         max-width: 100%;
+      }
     }
   }
 }
@@ -30,8 +37,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
-  margin-bottom: 90px;
+  
+  margin-bottom: 97px;
   
   @media (max-width: 1024px) {
     margin-bottom: 83px;
@@ -42,74 +49,80 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
+    
     margin-bottom: 50px;
   }
-
+  @media (max-width: 479px) {
+    margin-bottom: 70px;
+  }
+  
+  
   &__text {
     text-align: center;
-
+    
     h2 {
       color: #ffffff;
       font-family: $fontSourceSansPro;
       font-size: 20px;
       font-weight: 400;
-      line-height: 26.9px;
-      letter-spacing: 0.2px;
+      @media (max-width: 479px) {
+        font-size: 15px;
+      }
+      
     }
-
+    
     @media (max-width: 768px) {
       text-align: left;
       padding-left: 50px;
       font-size: 15px;
     }
-
-    @media (max-width: 480px) {
+    
+    @media (max-width: 479px) {
       padding-left: 25px;
     }
   }
-
+  
   &__item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    
     width: 32%;
     padding: 5px;
-
+    
     /*for animation*/
     opacity: 0;
-
+    
     @media (min-width: 1024px) {
       margin: 0 20px;
     }
-
+    
     @media (max-width: 768px) {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: flex-start;
-
+      
       width: 100%;
-
+      
       padding: 10px 0;
     }
   }
-
+  
   &__img {
     position: relative;
-
+    
     max-width: 54px;
     height: 54px;
     flex-shrink: 0;
-
+    
     margin-bottom: 25px;
     @media (max-width: 768px) {
       margin: 0;
       max-width: 40px;
     }
-
+    
     svg {
       width: 100%;
       height: 100%;
@@ -132,14 +145,17 @@
 .lines-1 {
   position: absolute;
   max-width: 0;
-  width: 0;
-  height: 2px;
-
+  width: calc(20% - 50px);
+  
+  height: 1px;
   right: calc(100% - 20% + 50px);
   top: calc(50% - 1px);
-
-  transform: translateY(-50%);
-
+  
+  @media (max-width: 1024px) {
+    width: 30px;
+    right: calc(100% - 30px);
+  }
+  
   &.animate {
     animation: Line1 2s linear forwards;
   }
@@ -148,8 +164,8 @@
 .lines-group {
   position: absolute;
   width: 100%;
-  height: 2px;
-
+  height: 1px;
+  
   left: 0;
   right: 0;
   top: 33px;
@@ -157,17 +173,17 @@
 
 .lines-2 {
   position: absolute;
-  width: 2px;
-  height: 8.5em;
+  width: 1px;
+  height: 7.9em;
   max-height: 0;
   left: 0;
-  top: -8em;
-
+  top: -7.9em;
+  
   &.animate {
     animation: Line2 2s linear forwards;
     animation-delay: 2s;
   }
-
+  
   @media (max-width: 992px) {
     height: calc(10.5em - 50px);
     top: calc(-10.5em + 59px);
@@ -178,10 +194,11 @@
   position: absolute;
   max-width: 0;
   width: 100%;
-  height: 2px;
-
+  height: 1px;
+  
   left: 0;
   top: 0;
+  
   &.animate {
     animation: Line3 3s linear forwards;
     animation-delay: 4s;
@@ -192,14 +209,14 @@
   position: absolute;
   right: 0;
   top: 33px;
-
+  
   max-height: 0;
-  height: calc(100% + 90px);
-
-  width: 2px;
-
+  height: calc(100% + 89px);
+  
+  width: 1px;
+  
   @media (max-width: 1024px) {
-    height: calc(100% + 76px);
+    height: calc(100% + 75px);
   }
   
   &.animate {
@@ -212,11 +229,12 @@
   position: absolute;
   right: 0;
   top: 50%;
-
-  height: 2px;
+  
+  height: 1px;
   max-width: 0;
   width: 30.5%;
   background-position: 100% 0;
+  
   &.animate {
     animation: Line5 5s linear forwards;
     animation-delay: 8.8s;
@@ -227,19 +245,19 @@
   from {
     max-width: 0;
   }
-  to{
+  to {
     max-width: 100%;
-    width: calc(20% - 50px);
+    
   }
 }
 
 @keyframes Line2 {
-  from{
+  from {
     max-height: 0;
   }
   to {
     max-height: 10.5em;
-
+    
   }
 }
 
