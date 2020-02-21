@@ -5,7 +5,7 @@
   position: relative;
   
   z-index: 2;
- 
+  
   .counter {
     display: flex;
     justify-content: space-between;
@@ -13,12 +13,12 @@
     
     margin-bottom: 170px;
     
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
       .desc-counter {
         display: none;
       }
     }
-   
+    
     &__item {
       display: flex;
       justify-content: center;
@@ -38,17 +38,18 @@
       @media (max-width: 768px) {
         width: 30%;
         max-width: 100px;
-        text-align:right ;
+        text-align: right;
         font-size: 20px;
       }
       @media (max-width: 479px) {
         font-size: 20px;
-  
+        
         @media (max-width: 360px) {
           font-size: 15px;
         }
       }
     }
+    
     &__text {
       text-align: center;
       color: #ffffff;
@@ -66,6 +67,7 @@
       }
     }
   }
+  
   &__text {
     display: flex;
     justify-content: flex-start;
@@ -85,15 +87,17 @@
       
     }
   }
+  
   @media (max-width: 992px) {
     .counter {
       margin-bottom: 70px;
-      flex-wrap: wrap ;
+      flex-wrap: wrap;
+      
       &__item {
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         width: 50%;
-        margin: 20px 0 ;
+        margin: 20px 0;
       }
       
     }
@@ -103,26 +107,60 @@
   @media (max-width: 768px) {
     .counter {
       margin-bottom: 70px;
-      flex-wrap: wrap ;
+      flex-wrap: wrap;
+      
       &__item {
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         flex-direction: row;
         
         width: 100%;
       }
+      
       &__number {
         padding-right: 20px;
       }
     }
   }
   
-  @media (max-width: 479px){
+  @media (max-width: 479px) {
     .counter {
       margin-bottom: 70px;
+      
       &__number {
-        padding-right:12px;
+        padding-right: 12px;
       }
     }
   }
+}
+
+.circle-we {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 200px;
+  height: 200px;
+  
+  z-index: 55;
+  transform: translate(38%, 8%);
+  
+  .circle-small {
+    position: absolute;
+    background-color: rgba(187, 0, 14, 0.78);
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 85px 95px rgba(187, 0, 14, 0.8);
+    opacity: 0;
+  }
+  
+  @media (max-width: 992px) {
+    display: none;
+  }
+  
 }
