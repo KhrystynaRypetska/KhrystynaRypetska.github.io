@@ -20,18 +20,24 @@
     align-items: center;
     width: 35px;
     height: 35px;
-    
+  
     background: none;
-    
+  
     position: absolute;
     top: 50%;
-    
+  
     transform: translateY(-50%);
-    
+  
     border: 1px solid #9c0315;
-    
+  
     z-index: 3;
     
+    &:active {
+      box-shadow: 0 0 0 1px rgb(156, 22, 31) inset;
+      span {
+        transform: scale(.8);
+      }
+    }
     &.owl-prev {
       left: 25px;
       @media (max-width: 768px) {
