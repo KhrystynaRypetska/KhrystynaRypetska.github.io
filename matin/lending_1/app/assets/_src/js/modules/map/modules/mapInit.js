@@ -17,7 +17,7 @@ export default class MapCreater {
             map: map,
             position: {lat: 55.684685, lng: 37.624105},
             icon: {
-                url: "../assets/app/img/svg/map-logo.svg"
+                url: "../assets/img/svg/map--logo.svg"
             }
         });
     }

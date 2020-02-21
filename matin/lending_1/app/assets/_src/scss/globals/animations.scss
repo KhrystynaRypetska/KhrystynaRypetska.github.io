@@ -77,19 +77,7 @@
       transition-delay: 2s;
     }
   }
-  
-  .circle,.circle-f {
-    opacity: 1;
-    transition: opacity .5s ease-in-out;
-    transition-delay: 2s;
-    
-    .circle-s {
-      opacity: 1;
-      transition: opacity .5s ease-in-out;
-      transition-delay: 2.2s;
-    }
-  }
-  
+
   .circle-small {
     opacity: .3;
     transition: opacity .5s ease-in-out;
