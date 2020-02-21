@@ -613,7 +613,7 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 
 .banner .plus { width: 17px; height: 17px; position: absolute; opacity: 0; }
 
-@media (max-width: 768px) { .banner .plus { opacity: 1; } }
+@media (max-width: 768px) { .banner .plus { opacity: 0; display: none; } }
 
 .banner .plus span { position: absolute; background-color: #767676; width: 2px; height: 17px; }
 
@@ -771,7 +771,7 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 @media (max-width: 479px) { .we-do .counter { margin-bottom: 70px; }
   .we-do .counter__number { padding-right: 12px; } }
 
-.circle-we { position: absolute; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; width: 200px; height: 200px; z-index: 55; -webkit-transform: translate(38%, 8%); -ms-transform: translate(38%, 8%); transform: translate(38%, 8%); }
+.circle-we { position: absolute; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; top: 50%; width: 200px; height: 200px; z-index: 55; -webkit-transform: translate(38%, 8%); -ms-transform: translate(38%, 8%); transform: translate(38%, 8%); }
 
 .circle-we .circle-small { position: absolute; background-color: rgba(187, 0, 14, 0.78); -webkit-border-radius: 50%; border-radius: 50%; width: 80%; height: 80%; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-box-shadow: 0 0 85px 95px rgba(187, 0, 14, 0.8); box-shadow: 0 0 85px 95px rgba(187, 0, 14, 0.8); opacity: 0; }
 
@@ -1074,11 +1074,9 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 
 @media (min-width: 992px) { .form__text { max-width: 315px; width: 100%; } }
 
-.form__text a { color: #b7000e; text-decoration: none; position: relative; }
+@media (max-width: 479px) { .form__text { width: 100%; } }
 
-@media (max-width: 479px) { .form__text a { word-wrap: break-spaces; } }
-
-.form__text a:after { content: ''; display: block; position: absolute; width: 220px; top: 20px; left: 0; height: 1px; background-color: #b7000e; }
+.form__text a { color: #b7000e; position: relative; text-decoration: underline; }
 
 .form__wrapper { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 0 auto; width: 100%; }
 
@@ -1118,9 +1116,13 @@ footer { position: relative; width: 100%; padding: 80px 0 50px; background-image
 
 @media (min-width: 992px) { .form__checkbox { max-width: 427px; width: 100%; } }
 
-.form__checkbox label { position: relative; cursor: pointer; }
+.form__checkbox label { position: relative; cursor: pointer; padding-left: 57px; }
 
-.form__checkbox label:before { content: ''; -webkit-appearance: none; background-color: #ffffff; border: 1px solid #1b1b1b; padding: 10px; display: inline-block; position: relative; vertical-align: middle; cursor: pointer; margin-right: 22px; width: 34px; height: 34px; }
+@media (max-width: 480px) { .form__checkbox label { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; } }
+
+.form__checkbox label p { display: inline-block; }
+
+.form__checkbox label:before { content: ''; -webkit-appearance: none; background-color: #ffffff; border: 1px solid #1b1b1b; padding: 10px; display: inline-block; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); vertical-align: middle; cursor: pointer; margin-right: 22px; width: 34px; height: 34px; }
 
 .form__checkbox input { padding: 0; height: initial; width: initial; margin-bottom: 0; display: none; cursor: pointer; }
 

@@ -157,26 +157,15 @@
       width: 100%;
     }
 
+    @media (max-width: 479px) {
+      width: 100%;
+    }
+
     a {
       color: #b7000e;
-      text-decoration: none;
+
       position: relative;
-      @media (max-width: 479px) {
-        word-wrap: break-spaces;
-      }
-
-      &:after {
-        content: '';
-        display: block;
-        position: absolute;
-
-        width: 220px;
-        top: 20px;
-        left: 0;
-        height: 1px;
-        background-color: #b7000e;
-
-      }
+      text-decoration: underline;
     }
   }
 
@@ -301,6 +290,16 @@
   label {
     position: relative;
     cursor: pointer;
+    padding-left: 57px;
+
+    @media (max-width: 480px) {
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      display: inline-block;
+    }
 
     &:before {
       content: '';
@@ -310,7 +309,11 @@
 
       padding: 10px;
       display: inline-block;
-      position: relative;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+
       vertical-align: middle;
       cursor: pointer;
       margin-right: 22px;

@@ -54,50 +54,50 @@ $(document).ready(() => {
       let fd = new FormData(form);
 
       console.log(fd)
-      // $.ajax({
-      //   url: "http://landing.loc/mail",
-      //   type: "POST",
-      //   data: fd,
-      //   processData: false,
-      //   contentType: false,
-      //   success: function success(res) {
-      //     // let respond = $.parseJSON(res);
-      //     // console.log(res)
-      //     // if (respond.name) {
-      //     //   inpNameError.text(respond.name);
-      //     // } else {
-      //     //   inpNameError.text('');
-      //     // }
-      //     //
-      //     // if (respond.tel) {
-      //     //   inpTelError.text(respond.tel);
-      //     // } else {
-      //     //   inpTelError.text('');
-      //     // }
-      //     //
-      //     // if (respond.email) {
-      //     //   inpEmailError.text(respond.email);
-      //     // } else {
-      //     //   inpEmailError.text('');
-      //     // }
-      //     //
-      //     // if (respond.attantion) {
-      //     //   formDescription.text(respond.attantion).css('color', '#e84a66').fadeIn();
-      //     // } else {
-      //     //   formDescription.text('');
-      //     // }
-      //     //
-      //     // if (respond.success) {
-      //     //   formDescription.text(respond.success).fadeIn();
-      //     //   setTimeout(() => {
-      //     //     formDescription.fadeOut("slow");
-      //     //   }, 4000);
-      //     //   setTimeout(() => {
-      //     //     formDescription.text('');
-      //     //   }, 5000);
-      //     // }
-      //   },
-      // });
+      $.ajax({
+        url: "http://landing.loc/",
+        type: "POST",
+        data: fd,
+        processData: false,
+        contentType: false,
+        success: function success(res) {
+          let respond = $.parseJSON(res);
+          console.log(respond.name);
+          // if (respond.name) {
+          //   inpNameError.text(respond.name);
+          // } else {
+          //   inpNameError.text('');
+          // }
+          //
+          // if (respond.tel) {
+          //   inpTelError.text(respond.tel);
+          // } else {
+          //   inpTelError.text('');
+          // }
+          //
+          // if (respond.email) {
+          //   inpEmailError.text(respond.email);
+          // } else {
+          //   inpEmailError.text('');
+          // }
+          //
+          // if (respond.attantion) {
+          //   formDescription.text(respond.attantion).css('color', '#e84a66').fadeIn();
+          // } else {
+          //   formDescription.text('');
+          // }
+          //
+          // if (respond.success) {
+          //   formDescription.text(respond.success).fadeIn();
+          //   setTimeout(() => {
+          //     formDescription.fadeOut("slow");
+          //   }, 4000);
+          //   setTimeout(() => {
+          //     formDescription.text('');
+          //   }, 5000);
+          // }
+        },
+      });
     });
   }(jQuery));
 
