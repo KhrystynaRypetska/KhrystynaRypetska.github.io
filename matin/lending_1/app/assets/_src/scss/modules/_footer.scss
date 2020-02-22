@@ -92,6 +92,7 @@
         position: relative;
     
         transition: all .3s ease-in-out;
+        letter-spacing: 0.14px;
     
         &:after {
           content: '';
@@ -126,7 +127,7 @@
   justify-content: center;
   align-items: center;
   
-  margin-top: 20px;
+  margin-top: 30px;
   
   p {
     text-decoration: none;
@@ -135,5 +136,10 @@
     font-family: $fontSourceSansPro;
     font-size: 15px;
     font-weight: 300;
+    
+    letter-spacing: 0.13px;
+    @media (max-width: 479px) {
+      font-size: 15px;
+    }
   }
 }

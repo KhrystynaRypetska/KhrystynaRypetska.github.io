@@ -213,7 +213,7 @@
                             </div>
                             <div class="banner__btn-wrap">
                                 <div class="lines-5" style="background-image: url('./assets/img/svg/line1.svg')"></div>
-                                <a href="#clients" class="btn btn--main btn--m"> Оставить запрос </a>
+                                <a href="#form" class="btn btn--main btn--m"> Оставить запрос </a>
                             </div>
                         </div>
                     </div>
@@ -249,9 +249,6 @@
                         </div>
                     </div>
                     <div class="section--we-do__bg">
-                        <div class="circle-we">
-                            <span class="circle-small"></span>
-                        </div>
                     </div>
                 </section>
                 <section class="section--about-us section" id="about-us">
@@ -447,7 +444,7 @@
                                 </div>
                             </div>
                             <div class="about-us__btn-wrap">
-                                <a href="#clients" class="btn btn--main btn--m"> Оставить запрос </a>
+                                <a href="#form" class="btn btn--main btn--m"> Оставить запрос </a>
                             </div>
                         </div>
                     </div>
@@ -510,7 +507,7 @@
                                     </div>
                                 </div>
                                 <div class="reviews__btn-wrap btn--m">
-                                    <a href="#clients" class="btn btn--main btn--m"> Оставить запрос </a>
+                                    <a href="#form" class="btn btn--main btn--m"> Оставить запрос </a>
                                 </div>
                             </div>
                         </div>
@@ -634,7 +631,7 @@
                                 </div>
                             </div>
                             <div class="process__btn-wrap">
-                                <a href="#clients" class="btn btn--main btn--m"> Оставить запрос </a>
+                                <a href="#form" class="btn btn--main btn--m"> Оставить запрос </a>
                             </div>
                         </div>
                     </div>
@@ -1206,7 +1203,7 @@
                                     </svg>
                                 </div>
                             </div>
-                            <div class="contacts-form">
+                            <div class="contacts-form" id="form">
                                 <h3 class="section__title"> Заполните запрос на проект </h3>
                                 <form class="contact-form" id="contact-form" action="http://landing.loc" method="POST" enctype="multipart/form-data" autocomplete="on">
                                     <h3 class="form__description"></h3>
@@ -1234,14 +1231,14 @@
                                                     <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
                                                     <label for="message">Ваш запрос<span> *</span></label>
                                                 </p>
+                                                <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
+                                                <div class="form__checkbox">
+                                                    <input type="checkbox" id="check">
+                                                    <label for="check" class="form__text"><span></span>
+                                                        <p>Согласен с &nbsp; <a href="Polit_konf.doc" class="break">Политикой конфеденциальности</a></p>
+                                                    </label>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
-                                        <div class="form__checkbox">
-                                            <input type="checkbox" id="check">
-                                            <label for="check" class="form__text">
-                                                <p>Согласен с &nbsp; <a href="Polit_konf.doc" class="break">Политикой конфеденциальности</a></p>
-                                            </label>
                                         </div>
                                         <button class="clients-form btn btn--l  btn--f" type="submit"> Отправить запрос </button>
                                     </div>
@@ -1323,11 +1320,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button href="#clients" class=" btn btn--main btn--m btn-wrap__desc"> Отправить запрос </button>
+                                    <a href="#form" class="btn btn--main btn--m btn-wrap__desc"> Связаться с нами </a>
                                 </div>
                                 <div class="contacts__map" id="map">
                                 </div>
-                                <button href="#clients" class="btn btn--main btn--m btn-wrap__mob"> Связаться с нами </button>
+                                <a href="#form" class="btn btn--main btn--m btn-wrap__mob"> Связаться с нами </a>
                             </div>
                         </div>
                     </div>

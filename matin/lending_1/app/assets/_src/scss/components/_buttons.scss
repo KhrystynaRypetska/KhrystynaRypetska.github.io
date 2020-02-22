@@ -4,7 +4,7 @@
   align-items: center;
   
   padding: .3em .5em;
-  
+  font-size: 19px;
   font-family: $fontMontserrat;
   font-weight: bold;
   text-decoration: none;
@@ -35,24 +35,21 @@
     letter-spacing: 0.2px;
   
     box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
+   
     &:active {
       background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
     }
-  }
-  
-  
-  
-  //small
-  &--form {
-  
   }
   
   //medium
   &--m {
     max-width: 275px;
     width: 100%;
-    @media (max-width: 479px) {
+    @media (max-width: 768px) {
       max-width: 210px;
+    }
+    @media (max-width: 479px) {
+      max-width: 100%;
     }
   }
   
@@ -60,8 +57,14 @@
   &--l {
     max-width: 315px;
     width: 100%;
-    @media (max-width: 479px) {
+    @media (max-width: 1024px) {
+          max-width: 230px;
+    }
+    @media (max-width: 768px) {
       max-width: 210px;
+    }
+    @media (max-width: 479px) {
+      max-width: 100%;
     }
   }
 }

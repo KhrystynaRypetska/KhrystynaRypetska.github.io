@@ -24,7 +24,9 @@
       justify-content: center;
       flex-direction: column;
       flex-shrink: 0;
-      width: 25%;
+  
+      flex-basis: 20%;
+      
     }
     
     &__number {
@@ -35,19 +37,17 @@
       font-weight: 700;
       line-height: 150%;
       white-space: nowrap;
+      
       @media (max-width: 768px) {
         width: 30%;
         max-width: 100px;
         text-align: right;
-        font-size: 20px;
+        font-size: 25px;
       }
       @media (max-width: 479px) {
         font-size: 20px;
-        
-        @media (max-width: 360px) {
-          font-size: 15px;
-        }
       }
+      
     }
     
     &__text {
@@ -56,11 +56,12 @@
       font-family: $fontSourceSansPro;
       font-size: 20px;
       font-weight: 400;
+      letter-spacing: 0.17px;
       @media (max-width: 768px) {
         width: 70%;
         text-align: left;
       }
-      @media (max-width: 360px) {
+      @media (max-width: 479px) {
         font-size: 15px;
         text-align: left;
         font-weight: 500;
@@ -78,10 +79,11 @@
     p {
       color: #ffffff;
       font-family: $fontSourceSansPro;
-      font-size: 21px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 37.92px;
-      @media (max-width: 360px) {
+      letter-spacing: 0.17px;
+      @media (max-width: 479px) {
         font-size: 15px;
       }
       
@@ -96,8 +98,9 @@
       &__item {
         justify-content: space-between;
         align-items: center;
-        width: 50%;
+        flex-basis: 50%;
         margin: 20px 0;
+        
       }
       
     }
@@ -114,7 +117,10 @@
         align-items: center;
         flex-direction: row;
         
-        width: 100%;
+        flex-basis: 100%;
+        @media (max-width: 768px) {
+          justify-content: space-around;
+        }
       }
       
       &__number {
@@ -132,35 +138,4 @@
       }
     }
   }
-}
-
-.circle-we {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 50%;
-  width: 200px;
-  height: 200px;
-  
-  z-index: 55;
-  transform: translate(38%, 8%);
-  
-  .circle-small {
-    position: absolute;
-    background-color: rgba(187, 0, 14, 0.78);
-    border-radius: 50%;
-    width: 80%;
-    height: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 85px 95px rgba(187, 0, 14, 0.8);
-    opacity: 0;
-  }
-  
-  @media (max-width: 992px) {
-    display: none;
-  }
-  
 }

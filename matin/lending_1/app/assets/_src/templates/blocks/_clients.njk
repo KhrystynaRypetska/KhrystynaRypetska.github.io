@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="contacts-form">
+            <div class="contacts-form" id="form">
                 <h3 class="section__title">
                     Заполните запрос на проект
                 </h3>
@@ -73,16 +73,17 @@
                                     <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
                                     <label for="message">Ваш запрос<span> *</span></label>
                                 </p>
+                                <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
+
+                                <div class="form__checkbox">
+                                    <input type="checkbox" id="check">
+                                    <label for="check" class="form__text"><span></span><p>Согласен с &nbsp; <a href="Polit_konf.doc" class="break" >Политикой конфеденциальности</a></p></label>
+                                </div>
                             </div>
 
                         </div>
 
-                        <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
 
-                        <div class="form__checkbox">
-                            <input type="checkbox" id="check">
-                            <label for="check" class="form__text"><p>Согласен с &nbsp; <a href="Polit_konf.doc" class="break" >Политикой конфеденциальности</a></p></label>
-                        </div>
 
                         <button class="clients-form btn btn--l  btn--f" type="submit">
                             Отправить запрос

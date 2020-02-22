@@ -97,11 +97,12 @@
       
       width: 100%;
   
-      background-image: url("../img/background/we-do/we-do.png");
+      background-image: url("../img/background/we-do/we-do-sm.png");
       background-repeat: no-repeat;
       background-size: 1920px;
       background-position: top;
       z-index: -1;
+      
   
       top: 0;
       
@@ -126,14 +127,14 @@
       position: absolute;
       width: 100%;
       height: calc(100% - 45vh);
-      background-image: url("../img/background/about-us/about-us.png");
+      background-image: url("../img/background/about-us/about-us-bg.png");
       background-repeat: no-repeat;
       background-size: 1920px;
       background-position: top;
       top: 40vh;
       z-index: -1;
   
-      box-shadow: 0px -170px 170px 0px #060606;
+      box-shadow: 0px -170px 170px 0px #000000;
       
       @media (max-width: 1024px) {
         top: 37vh;
@@ -253,7 +254,7 @@ footer {
   
   width: 100%;
   
-  padding: 80px 0 50px;
+  padding: 100px 0 30px;
   
   background-image: url("../img/background/footer/footer-2.png");
   background-repeat: no-repeat;
