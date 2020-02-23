@@ -11,6 +11,7 @@ function createConfig(envParam) {
     entry: {
       // vendor: ['jquery'],
       main: './main.js',
+      formSend: './formSend.js',
     },
     output: {
       path: path.join(__dirname, config.dest.js),

@@ -15,6 +15,21 @@
         эффективность бизнес-процессов организации повышается в 1,5 раза за
         счёт использования последних достижений информационных технологий" />
         <meta property="og:site_name" content="[Квадрат] — цифровые решения" />
+        <script src="https://www.google.com/recaptcha/api.js?render=6LcheNsUAAAAAPXHkADN3KXE9IJzDd2VJMHDqYrq"></script>
+        <script>
+            grecaptcha.ready(function()
+            {
+                grecaptcha.execute('6LcheNsUAAAAAPXHkADN3KXE9IJzDd2VJMHDqYrq',
+                {
+                    action: 'contact'
+                }).then(function(token)
+                {
+                    var recaptchaResponse = document.getElementById('recaptchaResponse');
+                    recaptchaResponse.value = token;
+                });
+            });
+
+        </script>
         <!-- CSS styles -->
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Main page</title>
@@ -1206,7 +1221,6 @@
                             <div class="contacts-form" id="form">
                                 <h3 class="section__title"> Заполните запрос на проект </h3>
                                 <form class="contact-form" id="contact-form" action="http://landing.loc" method="POST" enctype="multipart/form-data" autocomplete="on">
-                                    <h3 class="form__description"></h3>
                                     <div class="form__wrapper">
                                         <div class="form">
                                             <div class="form__fields">
@@ -1227,19 +1241,22 @@
                                                 </div>
                                             </div>
                                             <div class="form__textarea">
-                                                <p class="form__field ">
-                                                    <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
-                                                    <label for="message">Ваш запрос<span> *</span></label>
-                                                </p>
-                                                <p class="form__text"> <span> * </span> Поля обязательные для заполнения</p>
+                                                <div class="form__field ">
+                                                    <textarea class="input" name="text" id="text" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                                                    <label for="text">Ваш запрос<span> *</span></label>
+                                                    <div class="form__field__error form__field__error_text"></div>
+                                                </div>
+                                                <div class="form__text"> <span> * </span> Поля обязательные для заполнения</div>
                                                 <div class="form__checkbox">
-                                                    <input type="checkbox" id="check">
-                                                    <label for="check" class="form__text"><span></span>
+                                                    <input type="checkbox" id="form__checkbox" name="agreement">
+                                                    <label for="form__checkbox" class="form__text"><span></span>
                                                         <p>Согласен с &nbsp; <a href="Polit_konf.doc" class="break">Политикой конфеденциальности</a></p>
                                                     </label>
+                                                    <div class="form__field__error form__field__error_agreement"></div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                         <button class="clients-form btn btn--l  btn--f" type="submit"> Отправить запрос </button>
                                     </div>
                                 </form>
@@ -1614,5 +1631,6 @@
         </div>
         <script defer async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqSwEuQTSTeeOLEjLi4CqSGlsOJnr6_C0&callback=initMap"></script>
         <script defer async src="./assets/js/main.js"></script>
+        <script defer async src="./assets/js/formSend.js"></script>
     </body>
 </html>

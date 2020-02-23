@@ -243,6 +243,7 @@
   }
   
   &__textarea {
+    position: relative;
     width: calc(69% - 22px);
     display: flex;
     flex-direction: column;
@@ -296,12 +297,21 @@
         }
       }
     }
+
+    &__error {
+      position: absolute;
+      left: 0;
+      top: 100%;
+      color: red;
+      font-size: 12px;
+    }
   }
   
 }
 
 
 .form__checkbox {
+  position: relative;
   margin: 15px 0 30px;
   
   @media (min-width: 992px) {
@@ -320,7 +330,7 @@
       padding-left: 57px;
     }
     
-    p {
+    i {
       display: inline-block;
     }
   
@@ -378,4 +388,16 @@
       }
     }
   }
+}
+
+.compete__message {
+  background-color: rgba(0, 0, 0, 0.83);
+
+  h2 {
+    color: #b7000e;
+  }
+}
+
+.fancybox-slide--html .fancybox-close-small {
+  color: #b7000e;
 }
