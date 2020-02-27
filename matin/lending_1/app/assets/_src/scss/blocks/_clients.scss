@@ -8,6 +8,7 @@
   @media (max-width: 360px) {
     padding-bottom: 40px;
   }
+  
   .section__title {
     margin-bottom: 80px;
   }
@@ -22,17 +23,17 @@
   }
   
   .contacts-form {
-    //padding-bottom: 150px;
     @media (max-width: 768px) {
       padding-bottom: 50px;
     }
   }
+  
   &__wrap {
     &__desc {
       display: flex;
       justify-content: space-between;
       align-items: center;
-  
+      
       padding-bottom: 250px;
       
       @media (max-width: 1024px) {
@@ -54,6 +55,7 @@
         padding-bottom: 120px;
       }
     }
+    
     @media (max-width: 1024px) {
       padding-bottom: 100px;
     }
@@ -72,14 +74,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    margin: 20px 10px;
-
     height: 100px;
     max-width: 20%;
     @media (max-width: 769px) {
       margin: 0 10px;
       height: 60px;
+    }
+    
+    @media (max-width: 479px) {
+      height: 40px;
     }
     
     &:first-child {
@@ -89,13 +92,10 @@
     &:last-child {
       margin-left: 0;
     }
+    
     svg {
       height: 100%;
-      //width: 100%;
-
-      @media (max-width: 769px) {
-        width: 100%;
-      }
+      
     }
   }
 }

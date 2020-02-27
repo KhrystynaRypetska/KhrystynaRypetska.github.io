@@ -1253,17 +1253,17 @@ footer { position: relative; width: 100%; padding: 100px 0 30px; background-imag
 
 @media (max-width: 360px) { .clients__wrap { padding-bottom: 0; } }
 
-.clients__item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 20px 10px; height: 100px; max-width: 20%; }
+.clients__item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; height: 100px; max-width: 20%; }
 
 @media (max-width: 769px) { .clients__item { margin: 0 10px; height: 60px; } }
+
+@media (max-width: 479px) { .clients__item { height: 40px; } }
 
 .clients__item:first-child { margin-left: 0; }
 
 .clients__item:last-child { margin-left: 0; }
 
 .clients__item svg { height: 100%; }
-
-@media (max-width: 769px) { .clients__item svg { width: 100%; } }
 
 .count { font-size: 50px; color: #4ea7f9; }
 
