@@ -38,7 +38,7 @@
     "require-dir": "^1.0.0",
     "run-sequence": "^2.2.1",
     "webpack": "^3.11.0",
-    "webpack-bundle-analyzer": "^2.9.2"
+    "webpack-bundle-analyzer": "^3.3.2"
   },
   "dependencies": {
     "@babel/core": "^7.8.4",
