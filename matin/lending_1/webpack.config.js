@@ -12,7 +12,6 @@ function createConfig(envParam) {
       // vendor: ['jquery'],
       main: './main.js',
       formSend: './formSend.js',
-      locationRedirect: './locationRedirect.js',
     },
     output: {
       path: path.join(__dirname, config.dest.js),

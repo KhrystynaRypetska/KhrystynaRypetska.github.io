@@ -1,4 +1,4 @@
-import fancybox from './vendor/jquery.fancybox.min'
+import fancybox            from './vendor/jquery.fancybox.min'
 
 window.$ = jQuery
 window.jQuery = jQuery
@@ -17,31 +17,26 @@ import ScrollingDeal       from './modules/animation1/animation'
 import LangDropdown        from './modules/dropdown/dropdown'
 import masck               from 'jquery-mask-plugin'
 
-$(document).ready(async () => {
+$(document).ready(() => {
   detectBrowser()
   removeHoverOnMobile()
   const modules = new Modules()
 
-  try {
-    modules.addModules(new removeHoverOnMobile())
-    modules.addModules(new CounterInit())
-    modules.addModules(new Sliders())
-    modules.addModules(new Navigation())
-    modules.addModules(new Form())
-    modules.addModules(new ScrollingDeal())
-    modules.addModules(new LangDropdown())
+  modules.addModules(new removeHoverOnMobile())
+  modules.addModules(new CounterInit())
+  modules.addModules(new Sliders())
+  modules.addModules(new Navigation())
+  modules.addModules(new Form())
+  modules.addModules(new MapModule())
+  modules.addModules(new ScrollingDeal())
+  modules.addModules(new LangDropdown())
 
-    modules.addModules(new MapModule())
-
-    modules.init()
-  } catch (e) {
-    console.log(e)
-  }
+  modules.init()
 
   if (isMobile()) {
     $('body').addClass('mobile')
   }
 
-  $('#tel').mask('+9 (999) 999-99-99')
+  $('#tel').mask('+9 (999) 999-99-99');
 
 })

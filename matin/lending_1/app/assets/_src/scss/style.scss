@@ -9,6 +9,7 @@
 @import 'vendor/owl.theme.default.min';
 
 /*----- import globals -------------------------------------------*/
+
 @import 'globals/_reset.scss';
 @import 'globals/_base.scss';
 
@@ -19,6 +20,7 @@
 @import 'components/_other-components.scss';
 @import 'components/_typography.scss';
 @import 'components/_titles.scss';
+
 
 /*------ import sections --------------------------------------------*/
 @import 'components/_sections.scss';
@@ -37,7 +39,3 @@
 @import 'blocks/clients';
 @import 'blocks/contacts';
 @import 'blocks/reviews';
-
-.grecaptcha-badge {
-  z-index: 33;
-}

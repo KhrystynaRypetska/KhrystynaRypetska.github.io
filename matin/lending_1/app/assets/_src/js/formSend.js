@@ -22,25 +22,18 @@
       '</div>'
 
     let successMsg = '<div>lksdfh ;dfjkg; ldfskjg;l sdfkjg;lcsdfkjg;lcsdfkjg</div>';
-    let data = new FormData(form)
+    let fd = new FormData(form)
 
-    let respond;
     try {
-      // console.log(window.location)
-
       $.ajax({
-        url: './postMail.php',
+        url: 'http://landing.loc',
         type: 'POST',
-        data: data,
+        data: fd,
         processData: false,
         contentType: false,
         success: function success(res) {
-          try{
-            respond = $.parseJSON(res)
 
-          }catch(e){
-            console.log(e)
-          }
+          let respond = $.parseJSON(res)
 
           if (respond.name) {
             inpNameError.text(respond.name)
