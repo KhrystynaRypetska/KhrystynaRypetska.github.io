@@ -176,7 +176,7 @@
     background-image: url("../img/background/reviews/reviews.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% top;
+    background-position: 50% 50%;
     
     box-shadow: inset -20px 0px 20px 20px #000000;
     @media (max-width:1024px) {
@@ -189,7 +189,7 @@
     @media (max-width: 479px) {
       width: 100%;
       min-height: auto;
-      background-image: url("../img/background/reviews/reviews-m.png");
+      background-image: url("../img/background/reviews/reviews1-p.png");
       background-size: cover;
       box-shadow: inset 0 0 20px 20px #000000;
     }
@@ -227,8 +227,6 @@
     background-position: 50% 50%;
     width: 100%;
     
-    box-shadow: inset 0 0 20px 20px #000000;
-    
   }
   
   &--contacts {
@@ -261,5 +259,7 @@ footer {
   background-size: cover;
   background-position: 50% 50%;
   box-shadow: inset -1px 38px 105px 54px #000000;
-  
+  @media (max-width:768px) {
+    padding: 30px 0 10px;;
+  }
 }
