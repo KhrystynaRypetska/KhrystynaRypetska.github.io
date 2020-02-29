@@ -79,7 +79,7 @@
     max-width: 20%;
     @media (max-width: 769px) {
       margin: 0 10px;
-      height: 60px;
+      height: 40px;
     }
     
     &:first-child {
@@ -91,11 +91,6 @@
     }
     svg {
       height: 100%;
-      //width: 100%;
-
-      @media (max-width: 769px) {
-        width: 100%;
-      }
     }
   }
 }
