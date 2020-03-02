@@ -1,0 +1,106 @@
+<section class="section--clients section" id="clients">
+
+    <div class="container">
+        <div class="clients">
+            <h3 class="section__title">
+                Unsere Kunden
+            </h3>
+            <div class="clients__wrap__desc">
+                <div class="clients__item">
+                    {% include '../../svg/_partners-Rostec.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_partners-Design.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_partners-43.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_partners-Market.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_partners-Amerika.njk' %}
+                </div>
+            </div>
+
+            <div class="clients__wrap__mob">
+                <div class="clients__item">
+                    {% include '../../svg/_partners-Rostec.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_splav.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_partners-43.njk' %}
+                </div>
+                <div class="clients__item">
+                    {% include '../../svg/_partners-Amerika.njk' %}
+                </div>
+            </div>
+
+            <div class="contacts-form" id="form">
+                <h3 class="section__title">
+                    Unsere Kunden
+                </h3>
+
+                <form class="contact-form" id="contact-form"  action="http://landing.loc" method="POST" enctype="multipart/form-data" autocomplete="on">
+
+                    <div class="form__wrapper">
+
+                        <div class="form">
+
+
+                            <div  class="form__fields">
+                                <div class="form__field">
+                                    <input class="input input_email" type="email" name="email" id="email">
+                                    <label for="email">Email <span> *</span> </label>
+                                     <div class="form__field__error form__field__error_email"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input class="input input_name" type="text" name="name" id="name">
+                                    <label for="name">Name<span> *</span></label>
+                                    <div class="form__field__error form__field__error_name"></div>
+                                </div>
+                                <div class="form__field">
+                                    <input class="input input_tel" type="tel" name="tel" id="tel">
+                                    <label for="tel">Kontakt Nummer</label>
+                                    <div class="form__field__error form__field__error_tel"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="form__textarea">
+                                <div class="form__field ">
+                                    <textarea class="input" name="text" id="text" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                                    <label for="text">Ihre Anfrage<span> *</span></label>
+                                    <div class="form__field__error form__field__error_text"></div>
+                                </div>
+                                <div class="form__text"> <span> * </span> Benötigte Felder</div>
+
+                                <div class="form__checkbox">
+                                    <input type="checkbox" id="form__checkbox" name="agreement" >
+                                    <label for="form__checkbox" class="form__text"><span></span><p>Ich verstehe und stimme zu  &nbsp; <a href="Polit_konf.doc" class="break" >Datenschutz-Bestimmungen</a></p></label>
+                                    <div class="form__field__error form__field__error_agreement"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                        <button class="clients-form btn btn--l  btn--f" type="submit">
+                            Hinterlasse eine Anfrage
+                        </button>
+                    </div>
+                </form>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+</section>
