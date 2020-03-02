@@ -1,0 +1,401 @@
+&.animate {
+  
+  .main__title {
+    opacity: 1;
+  }
+  /*banner lines*/
+  .lines-1 {
+    animation: Line1 .3s linear forwards;
+    animation-delay: .3s;
+    background-position: right;
+  }
+
+  .lines-2 {
+    animation: Line2 .3s linear forwards;
+    animation-delay: .6s;
+  }
+
+  .lines-3 {
+    animation: Line3 .5s linear forwards;
+    animation-delay: .9s;
+  }
+
+  .lines-4 {
+    animation: Line4 .3s linear forwards;
+    animation-delay: 1.4s;
+  }
+
+  .lines-5 {
+    animation: Line5 .3s linear forwards;
+    animation-delay: 1.7s;
+  }
+  
+  /*banner plus*/
+  .plus {
+    &.icons-plus {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 1.5s;
+    }
+    &.title-plus {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 2s;
+    }
+    &.btn-plus {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 3s;
+    }
+  }
+  
+  /*banner lines end*/
+  .icons-block {
+    .icons-block__item {
+      &.icb-1 {
+        opacity: 1;
+        transition: opacity .5s ease-in-out;
+        transition-delay: .7s;
+      }
+      &.icb-2 {
+        opacity: 1;
+        transition: opacity .5s ease-in-out;
+        transition-delay: .9s;
+      }
+      &.icb-3 {
+         opacity: 1;
+         transition: opacity .9s ease-in-out;
+         transition-delay: 1.1s;
+      }
+      &.icb-4 {
+        opacity: 1;
+        transition: opacity .9s ease-in-out;
+        transition-delay: 1.3s;
+      }
+      &.icb-5 {
+        opacity: 1;
+        transition: opacity .9s ease-in-out;
+        transition-delay: 1.5s;
+      }
+    }
+  }
+
+  .banner__btn-wrap {
+    .btn {
+      opacity: 1;
+      transition: opacity .5s ease-in-out;
+      transition-delay: 2s;
+    }
+  }
+
+  .circle-small {
+    opacity: .3;
+    transition: opacity .5s ease-in-out;
+    transition-delay: .5s;
+  }
+  
+  .about-us__btn-wrap {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 1.5s;
+  }
+  
+  .process__btn-wrap {
+      opacity: 1;
+      transition: opacity .25s ease-in-out;
+      transition-delay: 1.5s;
+  }
+  
+  @media (min-width: 769px){
+    //.about-us line
+    .ab-line-1 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: 0s;
+      opacity: 1;
+    }
+    
+    .ab-line-3 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: .15s;
+    }
+    
+    .ab-line-8 {
+      animation: ab-line-h .25s  linear forwards;
+      animation-delay: .3s;
+    }
+    
+    .ab-line-4 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: .45s;
+    }
+    
+    .ab-line-2 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: .6s;
+    }
+    
+    .ab-line-9 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: .75s;
+    }
+    
+    .ab-line-5 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: .9s;
+    }
+    
+    .ab-line-6 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: 1.05s;
+    }
+    
+    .ab-line-10 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: 1.2s;
+    }
+    
+    .ab-line-7 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: 1.35s;
+    }
+    
+    .ab-line-11 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: 1.5s;
+    }
+    
+    //.about-us block
+    .about-us__wrapper {
+      .grid-tpl-1 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: 0s;
+      }
+      .grid-tpl-3 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: .15s;
+      }
+      .grid-tpl-7 {
+        opacity: 1;
+        transition: opacity .16s ease-in-out;
+        transition-delay: .3s;
+      }
+      .grid-tpl-4 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: .45s;
+      }
+      .grid-tpl-2 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: .6s;
+      }
+      .grid-tpl-5 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: .75s;
+      }
+      .grid-tpl-8 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: .9s;
+      }
+      .grid-tpl-6 {
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        transition-delay: 1.05s;
+      }
+    }
+  
+    //.process line
+    .proc-line-1 {
+      animation: ab-line-w .2s linear forwards;
+    }
+    .proc-line-2 {
+      animation: ab-line-h .2s linear forwards;
+      animation-delay: 0.2s;
+    }
+    .proc-line-3 {
+      animation: ab-line-w .2s linear forwards;
+      animation-delay: 0.4s;
+    }
+    .proc-line-4 {
+      animation: ab-line-h .2s linear forwards;
+      animation-delay: .6s;
+    }
+    .proc-line-5 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: .8s;
+    }
+    .proc-line-6 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: 1s;
+    }
+    .proc-line-7 {
+      animation: ab-line-h .5s linear forwards;
+      animation-delay: 1.2s;
+    }
+    .proc-line-8 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: 1.4s;
+    }
+  
+    //.process__wrapper
+    .process__wrapper {
+      .grid-item-1 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .0s;
+      }
+      .grid-item-2 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .2s;
+      }
+      .grid-item-3 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .4s;
+      }
+      .grid-item-4 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .6s;
+      }
+      .grid-item-5 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .8s;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) and (min-width: 481px) {
+    //.about-us line
+
+    .ab-line-3,
+    .ab-line-4{
+      animation: ab-line-w 1s linear forwards;
+      animation-delay: .5s;
+    }
+
+    .ab-line-8 {
+      animation: ab-line-h .5s linear forwards;
+      animation-delay: 0s;
+    }
+    
+    //.about-us block
+    .about-us__wrapper {
+      .grid-tpl-1 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+      
+      }
+      .grid-tpl-2 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .2s;
+      }
+      .grid-tpl-3 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .3s;
+      }
+      .grid-tpl-4 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .4s;
+      }
+  
+      .grid-tpl-5 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .5s;
+      }
+      .grid-tpl-6 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .6s;
+      }
+      .grid-tpl-7 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .7s;
+      }
+      .grid-tpl-8 {
+        opacity: 1;
+        transition: opacity .1s ease-in-out;
+        transition-delay: .8s;
+      }
+      
+    }
+  
+  
+    //.process line
+    .proc-line-1 {
+      animation: ab-line-w .2s linear forwards;
+    }
+    .proc-line-2 {
+      animation: ab-line-h .2s linear forwards;
+      animation-delay: 0.2s;
+    }
+    .proc-line-3 {
+      animation: ab-line-w .2s linear forwards;
+      animation-delay: 0.4s;
+    }
+    .proc-line-4 {
+      animation: ab-line-w .2s linear forwards;
+      animation-delay: .6s;
+    }
+    .proc-line-5 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: .8s;
+    }
+    .proc-line-6 {
+      animation: ab-line-w .25s linear forwards;
+      animation-delay: 1s;
+    }
+    .proc-line-7 {
+      animation: ab-line-h .5s linear forwards;
+      animation-delay: 1.2s;
+    }
+    .proc-line-8 {
+      animation: ab-line-h .25s linear forwards;
+      animation-delay: 1.4s;
+    }
+    
+    //.process__wrapper
+    .process__wrapper {
+      .grid-item-1 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .0s;
+      }
+      .grid-item-2 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .2s;
+      }
+      .grid-item-3 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .4s;
+      }
+      .grid-item-4 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .6s;
+      }
+      .grid-item-5 {
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        transition-delay: .8s;
+      }
+    }
+    
+  }
+}
+
+
+
