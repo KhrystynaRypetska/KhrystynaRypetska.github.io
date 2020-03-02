@@ -1,54 +1,32 @@
 export default class DropdownHandler {
-  constructor(el) {
-    this.dd = el
+  constructor(element = null, className = 'active') {
+    this.langSelect = $(element)
+    this.container = $(this.langSelect).find('.dropdown')
+    this.className = className
+
   }
 
-  dropdownHandler(el) {
-    function DropDown(el) {
-      this.dd = el;
-      this.placeholder = this.dd.children('span');
-      this.opts = this.dd.find('ul.dropdown > li');
-      this.val = '';
-      this.index = -1;
-      this.initEvents();
-    }
+  dropdownHandler(item, className) {
 
-    DropDown.prototype = {
-      initEvents : function() {
-        let obj = this;
-
-        obj.dd.on('click', function(event){
-          $(this).toggleClass('active');
-          return false;
-        });
-
-        obj.opts.on('click',function(){
-          let opt = $(this);
-          obj.val = opt.find('a').clone();
-          obj.index = opt.index();
-          obj.placeholder.html(obj.val);
-
-        });
-      },
-      getValue : function() {
-        return this.val;
-      },
-      getIndex : function() {
-        return this.index;
+    $(item).on('click', (e) => {
+      if (this.container.hasClass(className)) {
+          this.removeClass(this.container, className)
+      } else {
+        this.setClass(this.container, className)
       }
-    }
+    })
 
-    $(function() {
-      let dd = new DropDown( $('#dd') );
+  }
 
-      $(document).click(function() {
-        $('.wrapper-dropdown-1').removeClass('active');
-      });
+  setClass(item, className) {
+    $(item).addClass(className)
+  }
 
-    });
+  removeClass(item, className) {
+    $(item).removeClass(className)
   }
 
   init() {
-    this.dropdownHandler()
+    this.dropdownHandler(this.langSelect, this.className)
   }
 }
