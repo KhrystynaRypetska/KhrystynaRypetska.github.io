@@ -194,7 +194,7 @@
   .dropdown {
     /* Size &amp; position */
     position: absolute;
-    top: -6px;
+    top: 100%;
     left: 3px; /* Size */
     width: 100%;
     
@@ -204,7 +204,13 @@
     
     /* Hiding */
     opacity: 0;
-    pointer-events: none;
+    display: none;
+    transition: all .3s ease-in-out;
+
+    &.active {
+      display: block;
+      opacity: 1;
+    }
     
     li a {
       display: block;
@@ -230,6 +236,7 @@
   &.active {
     .result {
       opacity: 0;
+      display: block;
       
       img {
         padding-right: 6px;
@@ -247,6 +254,7 @@
     }
     
     .dropdown {
+
       opacity: 1;
       pointer-events: auto;
       text-decoration: none;
