@@ -1,0 +1,306 @@
+.main-wrapper {
+  position: relative;
+}
+
+.section {
+  background-color: rgb(27, 27, 27);
+  //background-image: linear-gradient(to top, #1b1b1b 0%, #1b1b1b 48%, rgba(27, 27, 27, 0.69) 66%, #1b1b1b 95%, #1b1b1b 100%);
+  
+  z-index: 3;
+  
+  //&:before {
+  //  content: '';
+  //  display: block;
+  //  position: absolute;
+  //
+  //  background-color: rgba(39, 39, 39, 0.87);
+  //  width: 100%;
+  //  height: 100%;
+  //
+  //  left: 0;
+  //  top: 0;
+  //  z-index: 0;
+  //}
+
+  &--banner {
+    position: relative;
+    
+    padding-top: 0;
+    min-height: 110vh;
+    padding-bottom: 120px;
+    
+    @media (max-width: 1024px) {
+      min-height: auto;
+    }
+    @media (max-width: 479px) {
+      padding-bottom: 100px;
+    }
+    
+    &__bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      
+      background-image: url("../img/background/banner/banner-d.png");
+      
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      
+      z-index: -1;
+      box-shadow: inset -13px -50px 35px 0px #141414;
+      //&:before {
+      //  content: '';
+      //  display: block;
+      //  position: absolute;
+      //
+      //  background-image: url("../img/background/Затемняющий_градиент.png");
+      //  width: 100%;
+      //  height: 100%;
+      //
+      //  left: 0;
+      //  top: 0;
+      //  z-index: 0;
+      //}
+
+      //@media (max-width: 1024px) {
+      //  height: calc(100% + 270px);
+      //}
+      
+      @media (max-width: 768px) {
+        background-image: url("../img/background/banner/banner-m.png");
+        background-size: cover;
+        padding: 5px 0;
+        box-shadow: inset -13px -50px 35px 0px #1b1b1b;
+      }
+      
+    }
+    
+  }
+  
+  &--we-do {
+    z-index: 4;
+    position: relative;
+    height: 100%;
+    padding-bottom: 130px;
+    top: 0;
+    
+    @media (max-width: 1024px) {
+      min-height: auto;
+      padding-bottom: 200px;
+    }
+    
+    @media (max-width: 768px) {
+      padding-bottom: 100px;
+    }
+    
+    @media (min-height: 480px) and (max-width: 767px) {
+      padding-top: 20px;
+    }
+    
+    &__bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      
+      background-image: url("../img/background/we-do/we-do.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100% center;
+      z-index: -1;
+      top: 0;
+      @media (max-width: 768px) {
+        top: 57%;
+        background-size: 758px;
+        height: 50%;
+        box-shadow: inset -13px 50px 35px 0px #1b1b1b;
+      }
+    }
+    
+  }
+  
+  &--about-us {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 200px;
+    z-index: 4;
+    @media (max-width: 1024px) {
+      padding-bottom: 0;
+    }
+   
+    &__bg {
+      position: absolute;
+      width: 100%;
+      height:100%;
+      background-image: url("../img/background/about-us/about-us.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      box-shadow: inset -13px -50px 35px 0px #1b1b1b;
+      z-index:-1;
+      @media (max-width: 1024px) {
+        top: 0;
+        height: 100%;
+      }
+      @media (max-width: 768px) {
+        box-shadow: inset -13px -50px 50px 0px #1b1b1b;;
+      }
+     
+    }
+    
+    
+  }
+  
+  &--projects {
+    position: relative;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 170px;
+    z-index: 5;
+    @media (max-width: 1024px) {
+      padding-top: 150px;
+      box-shadow: none;
+      padding-bottom: 0;
+    }
+  
+    @media (max-width: 768px) {
+      padding-top: 105px;
+      padding-bottom: 0;
+      box-shadow: inset -13px -50px 35px 0px #1b1b1b;;
+    }
+  }
+
+  &--reviews {
+    position: relative;
+    
+    z-index: 4;
+    padding-bottom: 200px;
+    
+    background-image: url("../img/background/reviews/reviews-d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% top;
+    box-shadow: inset 0 0 74px 0px #1b1b1b;
+    @media (max-width:1024px) {
+      padding-bottom: 150px;
+    }
+    @media (max-width:768px) {
+      padding-bottom: 130px;
+    }
+    
+    @media (max-width: 479px) {
+      width: 100%;
+      min-height: auto;
+      background-image: url("../img/background/reviews/reviews.png");
+      background-size: cover;
+      box-shadow: inset -13px 50px 35px 0px #1b1b1b;
+      
+    }
+  }
+  
+  &--process {
+    position: relative;
+   
+    padding-bottom: 200px;
+    
+    background-image: url("../img/background/process/process.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: inset 6px -31px 80px 71px #1b1b1b;
+    
+    &:before {
+      background-image: url("../img/background/process/process-overlay.png");
+      
+      z-index: 0;
+    }
+    
+    @media (max-width: 1024px) {
+      background-size: cover;
+      padding-bottom: 100px;
+    }
+   
+  }
+  
+  &--clients {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    
+  }
+  &--form {
+    position: relative;
+    background-image: url("../img/background/clients/clients-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 6px -5px 83px 50px #1b1b1b;
+    padding-bottom: 200px;
+    @media (max-width: 1024px) {
+      padding-bottom: 100px;
+    }
+    @media (max-width: 768px) {
+      padding-bottom: 0;
+    }
+  }
+  &--contacts {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% top;
+    width: 100%;
+    padding-bottom: 200px;
+  
+    @media (max-width:1024px) {
+      padding-bottom: 150px;
+    }
+    @media (max-width:768px) {
+      padding-bottom: 130px;
+    }
+  }
+  
+  @import "../globals/animations";
+}
+
+footer {
+  position: relative;
+  
+  width: 100%;
+  padding: 100px 0 30px;
+  background-image: url("../img/background/footer/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+
+    background-image: url("../img/background/footer/footer-overlay.png");
+    width: 100%;
+    height: 100%;
+    background-position: top;
+
+
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+}

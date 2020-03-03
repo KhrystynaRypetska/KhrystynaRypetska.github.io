@@ -1,0 +1,68 @@
+<section class="section--contacts section" id="contacts">
+    <div class="container">
+        <div class="contacts">
+
+            <h3 class="section__title">
+                Kontakte
+            </h3>
+            <div class="contacts__block">
+
+                <div class="contacts__info">
+                    <div class="contacts__title">
+
+                        Kontaktieren Sie uns, wie Sie es möchten
+
+                    </div>
+
+                    <div class="contacts__info__wrap">
+                        <div itemscope itemtype = "#">
+                            <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div class="svg-img">
+                                    {% include '../../svg/map/_telefon-purple.njk' %}
+                                </div>
+                                <div class="item-cont">
+                                    <a  href="tel:+79006149797"><span itemprop="telephone">+7 (900) 614-97-97</span></a>
+                                </div>
+
+                            </div>
+                            <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div class="svg-img">
+                                    {% include '../../svg/map/_pochta-purple.njk' %}
+                                </div>
+                                <div class="item-cont">
+                                    <p class="contacts__text">
+                                        info@сquared.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+
+                            <div class="svg-img">
+                                {% include '../../svg/map/_marker-purple.njk' %}
+                            </div>
+                            <div class="item-cont">
+                                <p class="contacts__text">
+                                    <span itemprop="addressLocality">Moskau</span>, <span itemprop="streetAddress"> Warschau hw., 39</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#form" class="btn btn--main btn--m btn-wrap__desc">
+                        Kontaktiere uns
+                    </a>
+                </div>
+
+                <div class="contacts__map" id="map">
+
+                </div>
+                <a href="#form" class="btn btn--main btn--m btn-wrap__mob">
+                    Kontaktiere uns
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
