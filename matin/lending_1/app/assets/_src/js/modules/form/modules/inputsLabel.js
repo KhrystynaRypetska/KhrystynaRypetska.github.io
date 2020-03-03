@@ -1,38 +1,37 @@
 export default class InputsLabel {
-    constructor(item) {
-        this.input = $(item)
+  constructor(item) {
+    this.input = $(item)
+  }
 
-    }
-    inputsHandler(item) {
-        $(item).focusout((e)=>{
-            let input = $(e.currentTarget)
+  inputsHandler(item) {
+    $(item).blur((e) => {
+      let input = $(e.currentTarget)
 
-            let inputVal = this.getItemValue(input);  //get input value after focusout
+      let inputVal = this.getItemValueFrom(input)  //get input value after focusout
 
-            if (inputVal === "")                     //if input value is empty
-            {
-                this.removeClass(input)
+      if (inputVal === '')                     //if input value is empty
+      {
+        this.removeClassFrom(input)
 
-            } else {
-                this.addClass(input)
-            }
-        });
-    }
+      } else {
+        this.addClassTo(input)
+      }
+    })
+  }
 
-    addClass(item) {
-        item.addClass('has-value');
-    }
+  addClassTo(item) {
+    item.addClass('has-value')
+  }
 
-    removeClass(item) {
-        item.removeClass('has-value')
-    }
+  removeClassFrom(item) {
+    item.removeClass('has-value')
+  }
 
+  getItemValueFrom(item = '') {
+    return $(item).val()
+  }
 
-    getItemValue(item = '') {
-        return $(item).val()
-    }
-
-    init() {
-        this.inputsHandler(this.input)
-    }
+  init() {
+    this.inputsHandler(this.input)
+  }
 }

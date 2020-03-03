@@ -22,7 +22,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/valid/valid.php');
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['recaptcha_response'])) {
     // Build POST request
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = '6LcheNsUAAAAABzVbRaSSIztHr3GQB2ynVqNjVC_';
+    $recaptcha_secret = '6LcNa94UAAAAAJMTIRZilpWVIu0aiOtWbLOToT-H';
     $recaptcha_response = $_POST['recaptcha_response'];
 
     // Make and decode POST request

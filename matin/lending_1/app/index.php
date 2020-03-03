@@ -2,14 +2,16 @@
 header("Access-Control-Allow-Origin: *");
 
 $sites = array(
-    "ru" => "/ru.html",
+    "ru" => "/index.html",
     "en" => "/eng.html",
-    "ge" => "/ge.html",
+    "de" => "/de.html",
 );
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 
 if (!in_array($lang, array_keys($sites))){
-    $lang = 'ru';
+    $lang = 'en';
 }
-header('Location: ' . $sites[$lang]);
-?>
+//header('Location: ' . $sites[$lang]);
+//print_r($_SERVER['HTTP_ACCEPT_LANGUAGE']);die;
+
+include $_SERVER['DOCUMENT_ROOT'] . '/' . $sites[$lang];

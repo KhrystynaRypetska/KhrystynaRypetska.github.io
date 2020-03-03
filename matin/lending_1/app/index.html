@@ -15,13 +15,13 @@
         эффективность бизнес-процессов организации повышается в 1,5 раза за
         счёт использования последних достижений информационных технологий" />
         <meta property="og:site_name" content="[Квадрат] — цифровые решения" />
-        <script src="https://www.google.com/recaptcha/api.js?render=6LcheNsUAAAAAPXHkADN3KXE9IJzDd2VJMHDqYrq"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed"></script>
         <script>
             grecaptcha.ready(function()
             {
-                grecaptcha.execute('6LcheNsUAAAAAPXHkADN3KXE9IJzDd2VJMHDqYrq',
+                grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed',
                 {
-                    action: 'contact'
+                    action: 'homepage'
                 }).then(function(token)
                 {
                     var recaptchaResponse = document.getElementById('recaptchaResponse');
@@ -109,7 +109,7 @@
                                                 <a href="#reviews">Отзывы</a>
                                             </li>
                                             <li class="nav__item">
-                                                <a href="#process">Процес</a>
+                                                <a href="#process">Процесс</a>
                                             </li>
                                             <li class="nav__item">
                                                 <a href="#clients">Клиенты</a>
@@ -129,7 +129,7 @@
                                         <ul class="dropdown">
                                             <li><a href="./index.html"><img src="./assets/img/svg/language/FlagRussia.svg" alt="">RU </a></li>
                                             <li><a href="./eng.html"><img src="./assets/img/svg/language/FlagUK.svg" alt="">EN </a></li>
-                                            <li><a href="./ge.html"><img src="./assets/img/svg/language/FlagGermany.svg" alt="">DE </a></li>
+                                            <li><a href="./de.html"><img src="./assets/img/svg/language/FlagGermany.svg" alt="">DE </a></li>
                                         </ul>
                                     </div>
                                     <div class="tel tel--desc">
@@ -1258,6 +1258,7 @@
                                             </div>
                                         </div>
                                         <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                                        <input type="hidden" name="lang" id="lang" value="ru">
                                         <button class="clients-form btn btn--l  btn--f" type="submit"> Отправить запрос </button>
                                     </div>
                                 </form>
