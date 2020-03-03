@@ -181,11 +181,10 @@
 .lines-1 {
   position: absolute;
   max-width: 0;
-  width: calc(20% - 40px);
-  
+  width: calc(20% - 68px);
   height: 1px;
-  right: calc(100% - 20% + 40px);
-  top: calc(50% - 1px);
+  right: calc(100% - 16.5% + 40px);
+  top: calc(50% - 0px);
   
   @media (max-width: 1024px) {
     width: 30px;
@@ -206,10 +205,10 @@
 .lines-2 {
   position: absolute;
   width: 1px;
-  height: 7.9em;
+  height: 8.5em;
   max-height: 0;
   left: 0;
-  top: -7.9em;
+  top: -8.1em;
   
   &.animate {
     animation: Line2 2s linear forwards;

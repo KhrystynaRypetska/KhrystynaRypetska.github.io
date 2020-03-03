@@ -265,11 +265,11 @@ body.fixed { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
 .wow { visibility: visible !important; }
 
 /*----- import components -------------------------------------------*/
-.btn { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: .3em .5em; font-size: 19px; font-family: "Montserrat", sans-serif; font-weight: bold; text-decoration: none; color: #ffffff; border: none; }
+.btn { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; min-height: 48px; padding: .3em .5em; font-size: 19px; font-family: "Montserrat", sans-serif; font-weight: bold; text-decoration: none; color: #ffffff; border: none; text-align: center; }
 
 .btn--main { height: 48px; font-size: 19px; font-weight: 400; line-height: 25.82px; letter-spacing: 0.2px; -webkit-box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35); box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35); background-image: -webkit-gradient(linear, left top, right top, from(#8f2480), to(#770065)); background-image: -webkit-linear-gradient(left, #8f2480 0%, #770065 100%); background-image: -o-linear-gradient(left, #8f2480 0%, #770065 100%); background-image: linear-gradient(to right, #8f2480 0%, #770065 100%); }
 
-.btn--f { color: #020101; background-color: #767676; height: 48px; font-size: 19px; font-weight: 400; line-height: 25.82px; letter-spacing: 0.2px; -webkit-box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35); box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35); }
+.btn--f { color: #020101; background-color: #767676; font-size: 19px; font-weight: 400; line-height: 25.82px; letter-spacing: 0.2px; -webkit-box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35); box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35); }
 
 .btn--f:active { background-image: -webkit-gradient(linear, left top, right top, from(#8f2480), to(#770065)); background-image: -webkit-linear-gradient(left, #8f2480 0%, #770065 100%); background-image: -o-linear-gradient(left, #8f2480 0%, #770065 100%); background-image: linear-gradient(to right, #8f2480 0%, #770065 100%); }
 
@@ -390,11 +390,13 @@ body.fixed { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
 
 @media (max-width: 1024px) { .section--process { -webkit-background-size: cover; background-size: cover; padding-bottom: 100px; } }
 
-@media (max-width: 768px) { .section--process { -webkit-box-shadow: inset -13px 50px 35px 0px #1b1b1b; box-shadow: inset -13px 50px 35px 0px #1b1b1b; } }
-
 .section--clients { position: relative; background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; width: 100%; height: 100%; }
 
-.section--form { position: relative; background-image: url("../img/background/clients/clients-1.png"); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; width: 100%; height: 100%; -webkit-box-shadow: inset 6px -31px 80px 71px #1b1b1b; box-shadow: inset 6px -31px 80px 71px #1b1b1b; }
+.section--form { position: relative; background-image: url("../img/background/clients/clients-1.png"); background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% 50%; width: 100%; height: 100%; -webkit-box-shadow: inset 6px -5px 83px 50px #1b1b1b; box-shadow: inset 6px -5px 83px 50px #1b1b1b; padding-bottom: 200px; }
+
+@media (max-width: 1024px) { .section--form { padding-bottom: 100px; } }
+
+@media (max-width: 768px) { .section--form { padding-bottom: 0; } }
 
 .section--contacts { position: relative; background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; background-position: 50% top; width: 100%; padding-bottom: 200px; }
 
@@ -680,13 +682,13 @@ footer:before { content: ''; display: block; position: absolute; background-imag
 
 @media (max-width: 768px) { [class^='lines-'] { display: none; } }
 
-.lines-1 { position: absolute; max-width: 0; width: -webkit-calc(20% - 40px); width: calc(20% - 40px); height: 1px; right: -webkit-calc(100% - 20% + 40px); right: calc(100% - 20% + 40px); top: -webkit-calc(50% - 1px); top: calc(50% - 1px); }
+.lines-1 { position: absolute; max-width: 0; width: -webkit-calc(20% - 68px); width: calc(20% - 68px); height: 1px; right: -webkit-calc(100% - 16.5% + 40px); right: calc(100% - 16.5% + 40px); top: -webkit-calc(50% - 0px); top: calc(50% - 0px); }
 
 @media (max-width: 1024px) { .lines-1 { width: 30px; right: -webkit-calc(100% - 30px); right: calc(100% - 30px); } }
 
 .lines-group { position: absolute; width: 100%; height: 1px; left: 0; right: 0; top: 33px; }
 
-.lines-2 { position: absolute; width: 1px; height: 7.9em; max-height: 0; left: 0; top: -7.9em; }
+.lines-2 { position: absolute; width: 1px; height: 8.5em; max-height: 0; left: 0; top: -8.1em; }
 
 .lines-2.animate { -webkit-animation: Line2 2s linear forwards; animation: Line2 2s linear forwards; -webkit-animation-delay: 2s; animation-delay: 2s; }
 
@@ -988,7 +990,7 @@ footer:before { content: ''; display: block; position: absolute; background-imag
 
 .clients__wrap__desc { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
-@media (max-width: 1024px) { .clients__wrap__desc { padding-bottom: 120px; } }
+@media (max-width: 1024px) { .clients__wrap__desc { padding-bottom: 10px; } }
 
 @media (max-width: 479px) { .clients__wrap__desc { display: none; } }
 
@@ -1017,6 +1019,8 @@ footer:before { content: ''; display: block; position: absolute; background-imag
 @media (max-width: 769px) { .clients__item svg { width: 100%; } }
 
 .count { font-size: 50px; color: #4ea7f9; }
+
+.form { padding-bottom: 50px; }
 
 @media (max-width: 768px) { .form .contacts-form { padding-bottom: 50px; } }
 
