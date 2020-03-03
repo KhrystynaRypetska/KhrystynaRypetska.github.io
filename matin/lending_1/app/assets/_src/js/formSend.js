@@ -21,12 +21,11 @@
       '</div>' +
       '</div>'
 
-    let successMsg = '<div>lksdfh ;dfjkg; ldfskjg;l sdfkjg;lcsdfkjg;lcsdfkjg</div>';
     let data = new FormData(form)
 
     let respond;
     try {
-      // console.log(window.location)
+
 
       $.ajax({
         url: './postMail.php',
@@ -79,20 +78,16 @@
           }
 
           if (respond.success) {
-
-            formDescription.text()
-            $('.' + formClass).find('input:not(\'#form__checkbox\')').val('')
-            $('.' + formClass).find('#form__checkbox').prop('checked', false)
-            $('.' + formClass).find('textarea').val('')
+            document.getElementById('contact-form').reset()
+            $('input, textarea').removeClass('has-value')
 
             let tpl = `<div class="compete__message"><h2>${respond.success}</h2></div>`
             window.$.fancybox.open({
               src: tpl,
               type: 'html'
+
             })
           }
-
-
         },
       })
     } catch (e) {
