@@ -3,16 +3,13 @@
     event.preventDefault()
     let form = $('#' + $(this).attr('id'))[0]
     let formClass = $(this).attr('class')
-    // Сохраняем в переменные дивы, в которые будем выводить текст ошибки
+
     let inpNameError = $(this).find('.form__field__error_name')
     let inpEmailError = $(this).find('.form__field__error_email')
     let inpTelError = $(this).find('.form__field__error_tel')
     let inpTextError = $(this).find('.form__field__error_text')
     let inpAgreementError = $(this).find('.form__field__error_agreement')
     let inpFileError = $(this).find('.form__field__error_file')
-
-    // Сохраняем в переменную див, в который будем выводить сообщение формы
-    let formDescription = $(this).find('.contact-form__description')
 
     let modalTpl = '<div class="fancybox-container" role="dialog" tabindex="-1">' +
       '<div class="fancybox-bg"></div>' +
@@ -23,9 +20,8 @@
 
     let data = new FormData(form)
 
-    let respond;
+    let respond
     try {
-
 
       $.ajax({
         url: './postMail.php',
@@ -34,10 +30,10 @@
         processData: false,
         contentType: false,
         success: function success(res) {
-          try{
+          try {
             respond = $.parseJSON(res)
 
-          }catch(e){
+          } catch (e) {
             console.log(e)
           }
 
@@ -80,6 +76,7 @@
           if (respond.success) {
             document.getElementById('contact-form').reset()
             $('input, textarea').removeClass('has-value')
+            $('.clients-form__btn').attr('disabled', true)
 
             let tpl = `<div class="compete__message"><h2>${respond.success}</h2></div>`
             window.$.fancybox.open({
@@ -95,4 +92,31 @@
     }
 
   })
+
+  try{
+    let inputs = $('.input')
+    let checkBox = $('#form__checkbox')
+    let input = document.querySelectorAll('.input')
+
+    input.forEach((e) => {
+      e.addEventListener('input', updateValue)
+    })
+
+    function updateValue(e) {
+      let empties = inputs.not('#form__checkbox').not('#tel').filter((i, item) => {
+        return $(item).val() === ''
+      })
+
+      console.log(empties)
+      if (!empties.length && checkBox.prop('checked')) {
+
+        $('.clients-form__btn').removeAttr('disabled')
+      } else {
+        $('.clients-form__btn').attr('disabled', true)
+      }
+    }
+  }catch (e) {
+    console.log(e)
+  }
+
 }(jQuery))

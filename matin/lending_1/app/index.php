@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 
 $sites = array(
-    "ru" => "/index.html",
+    "ru" => "/ru.html",
     "en" => "/eng.html",
     "de" => "/de.html",
 );

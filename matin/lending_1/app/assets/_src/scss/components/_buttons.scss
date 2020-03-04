@@ -13,8 +13,6 @@
   border: none;
   
   &--main {
-    
-    
     font-size: 19px;
     font-weight: 400;
     line-height: 25.82px;
@@ -23,22 +21,24 @@
     box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
     background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
   }
-  
-  &--f {
-    color: #020101;
-    
-    background-color: #767676 ;
 
+  //form btn
+  &--f {
     font-size: 19px;
     font-weight: 400;
     line-height: 25.82px;
     letter-spacing: 0.2px;
-  
     box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
-   
-    &:active {
-      background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
+    background-image: linear-gradient(to right, #b8000e 0%, #87000e 100%);
+    cursor: pointer;
+    &:disabled  {
+      color: #020101;
+
+      background-image: none;
+      background-color: #767676 ;
+      cursor: not-allowed;
     }
+
   }
   
   //medium
