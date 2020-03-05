@@ -107,9 +107,7 @@
         return $(item).val() === ''
       })
 
-      console.log(empties)
       if (!empties.length && checkBox.prop('checked')) {
-
         $('.clients-form__btn').removeAttr('disabled')
       } else {
         $('.clients-form__btn').attr('disabled', true)

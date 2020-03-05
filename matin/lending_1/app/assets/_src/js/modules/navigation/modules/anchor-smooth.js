@@ -1,56 +1,42 @@
-
-
 export default class AnchorSmooth {
-    constructor(item) {
-        this.item = item
-        this.offset = 0
-    }
+  constructor(item) {
+    this.item = item
+    this.offset = 0
+  }
 
-    addAnchor(item) {
-        item.addEventListener('click', (e)=> {
-            e.preventDefault()
+  addAnchor(item) {
+    $(item).each((i, link) => {
+      if (link.hash !== '') {
+        $(link).on('click', (e) => {
+          e.preventDefault()
+          this.setOffSet()
 
-            this.setOffSet()
-            try{
-                let anchor = document.querySelectorAll(e.currentTarget.getAttribute('href'))
+          let hash = decodeURI(link.hash)
+          let sectionTop = Math.round($(hash).offset().top)
 
-                console.log(anchor)
-                if (anchor.length) {
-                    anchor[0].scrollIntoView({
-                        behavior: 'smooth'
-                    })
-
-                    // console.log(anchor[0])
-                    // console.log(anchor)
-                    // console.log(this.offset)
-                    // window.scrollTo({
-                    //     top: anchor[0].getBoundingClientRect() - this.offset,
-                    //     behavior: 'smooth'
-                    // })
-                } else {
-                    return
-                }
-
-            }catch (e) {
-                console.log(e);
-            }
-
+          $('html, body').animate({
+            scrollTop: sectionTop - this.offset,
+          }, 1200, () => {
+            window.location.hash = sectionTop - this.offset
+          })
         })
-    }
+      }
+    })
+  }
 
-    setOffSet() {
-        if(this.getWindowWidth() >= 1024 ) {
-            this.offset = 100
-        } else {
-            this.offset = 0
-        }
+  setOffSet() {
+    if (this.getWindowWidth() >= 1025) {
+      this.offset = 100
+    } else {
+      this.offset = 0
     }
+  }
 
-    getWindowWidth() {
-        return window.innerWidth
-    }
+  getWindowWidth() {
+    return window.innerWidth
+  }
 
-    init() {
-        this.addAnchor(this.item)
-    }
+  init() {
+    this.addAnchor(this.item)
+  }
 }
