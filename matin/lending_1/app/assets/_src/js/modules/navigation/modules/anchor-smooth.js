@@ -1,33 +1,42 @@
-
-
 export default class AnchorSmooth {
-    constructor(item) {
-        this.item = item
-    }
+  constructor(item) {
+    this.item = item
+    this.offset = 0
+  }
 
-    addAnchor(item) {
-        item.addEventListener('click', (e)=> {
-            e.preventDefault()
+  addAnchor(item) {
+    $(item).each((i, link) => {
+      if (link.hash !== '') {
+        $(link).on('click', (e) => {
+          e.preventDefault()
+          this.setOffSet()
 
-            try{
-                let anchor = document.querySelectorAll(e.currentTarget.getAttribute('href'))
+          let hash = decodeURI(link.hash)
+          let sectionTop = Math.round($(hash).offset().top)
 
-                if (anchor.length) {
-                    anchor[0].scrollIntoView({
-                        behavior: 'smooth'
-                    })
-                } else {
-                    return
-                }
-
-            }catch (e) {
-                console.log(e);
-            }
-
+          $('html, body').animate({
+            scrollTop: sectionTop - this.offset,
+          }, 1200, () => {
+            window.location.hash = sectionTop - this.offset
+          })
         })
-    }
+      }
+    })
+  }
 
-    init() {
-        this.addAnchor(this.item)
+  setOffSet() {
+    if (this.getWindowWidth() >= 1025) {
+      this.offset = 100
+    } else {
+      this.offset = 0
     }
+  }
+
+  getWindowWidth() {
+    return window.innerWidth
+  }
+
+  init() {
+    this.addAnchor(this.item)
+  }
 }

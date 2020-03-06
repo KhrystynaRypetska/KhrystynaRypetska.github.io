@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include '../chunks/head/_head_eng.njk' %}
+    <title>{% block title %}Example{% endblock %}</title>
+</head>
+
+<body class="{% block bodyClass %}{% endblock %}">
+
+<div class="main-wrapper">
+
+    <main class="main">
+        {%include '../blocks/bannner/_banner_eng.njk' %}
+        {%include '../blocks/we-do/_we-do_ru.njk' %}
+        {%include '../blocks/about-us/_about-us_eng.njk' %}
+        {%include '../blocks/projects/_projects_eng.njk' %}
+        {%include '../blocks/reviews/_reviews_eng.njk' %}
+        {%include '../blocks/process/_process_eng.njk' %}
+        {%include '../blocks/clients/_clients_eng.njk' %}
+        {%include '../blocks/form/_form_eng.njk' %}
+        {%include '../blocks/contacts/_contacts_eng.njk' %}
+
+        {% block main %}{% endblock %}
+    </main>
+
+    {%include '../chunks/footer/_footer_eng.njk' %}
+
+</div>
+
+{% block modals %}{% endblock %}
+
+{% include 'chunks/_scripts.njk' %}
+
+</body>
+</html>
