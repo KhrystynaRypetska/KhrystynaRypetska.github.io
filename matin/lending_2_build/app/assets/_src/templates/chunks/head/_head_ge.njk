@@ -22,5 +22,14 @@
          Die Effektivität der Geschäftsprozesse des Unternehmens wird um das 1,5-fache erhöht
          durch den Einsatz der neuesten Fortschritte in der Informationstechnologie"/>
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed"></script>
+<script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed', {action: 'homepage'}).then(function(token) {
+      var recaptchaResponse = document.getElementById('recaptchaResponse');
+      recaptchaResponse.value = token;
+    });
+  });
+</script>
 <!-- CSS styles -->
 <link rel="stylesheet" href="assets/css/style.css">

@@ -15,6 +15,21 @@
                due to our knowledge and wide
                network of partnerships" />
         <meta property="og:site_name" content="[PC Build] — digital perfection" />
+        <script src="https://www.google.com/recaptcha/api.js?render=6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed"></script>
+        <script>
+            grecaptcha.ready(function()
+            {
+                grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed',
+                {
+                    action: 'homepage'
+                }).then(function(token)
+                {
+                    var recaptchaResponse = document.getElementById('recaptchaResponse');
+                    recaptchaResponse.value = token;
+                });
+            });
+
+        </script>
         <!-- CSS styles -->
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Main page</title>
@@ -164,9 +179,9 @@
                                     <div id="dd" class="wrapper-dropdown-1" tabindex="1">
                                         <span class="result"><img src="./assets/img/svg/language/FlagUK.svg" alt="">EN</span>
                                         <ul class="dropdown">
-                                            <li><a href=".."><img src="./assets/img/svg/language/FlagRussia.svg" alt="">RU </a></li>
-                                            <li><a href=".."><img src="./assets/img/svg/language/FlagUK.svg" alt="">EN </a></li>
-                                            <li><a href=".."><img src="./assets/img/svg/language/FlagGermany.svg" alt="">DE </a></li>
+                                            <li><a href="ru.html"><img src="./assets/img/svg/language/FlagRussia.svg" alt="">RU </a></li>
+                                            <li><a href="eng.html"><img src="./assets/img/svg/language/FlagUK.svg" alt="">EN </a></li>
+                                            <li><a href="de.html"><img src="./assets/img/svg/language/FlagGermany.svg" alt="">DE </a></li>
                                     </div>
                                     <div class="tel tel--desc">
                                         <a href="tel:+79006149797">Call.+7 (900) 614-97-97</a>
