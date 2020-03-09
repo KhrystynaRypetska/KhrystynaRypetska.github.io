@@ -4,7 +4,7 @@
 @import 'helpers/_mixin.scss';
 
 /*----- import vendors -------------------------------------------*/
-//@import 'vendor/jquery.fancybox';
+@import 'vendor/jquery.fancybox';
 @import 'vendor/owl.carousel.min';
 @import 'vendor/owl.theme.default.min';
 
@@ -40,3 +40,7 @@
 @import 'blocks/form';
 @import 'blocks/contacts';
 @import 'blocks/reviews';
+
+.grecaptcha-badge {
+  z-index: 33;
+}

@@ -1,6 +1,5 @@
 <?php
 	$msgs = [];
-//	echo json_encode($_POST);
 	$lang = $_POST['lang'];
 
 	if (isset($_POST['name'])) {
@@ -82,6 +81,7 @@
 		echo json_encode($msgs);
 		die;
 	} else {
+//		$msgs['success'] = MSGSSUCCESS; $msgs['post'] = $_POST;
 		if($lang == 'ru'){$msgs['success'] = MSGSSUCCESS;}
 		if ($lang == 'en'){$msgs['success'] = MSGSSUCCESS_ENG;}
 		if ($lang == 'de'){$msgs['success'] = MSGSSUCCESS_DE;}
