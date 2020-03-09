@@ -1,0 +1,67 @@
+<section class="section--contacts section" id="contacts">
+    <div class="container">
+        <div class="contacts">
+            <h3 class="section__title">
+                Контакты
+            </h3>
+            <div class="contacts__block">
+
+                <div class="contacts__info">
+                    <div class="contacts__title">
+
+                        Свяжитесь с нами любым удобным способом
+
+                    </div>
+
+                    <div class="contacts__info__wrap">
+                        <div itemscope itemtype = "#">
+                            <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div class="svg-img">
+                                    {% include '../../svg/map/_telefon-yellow.njk' %}
+                                </div>
+                                <div class="item-cont">
+                                    <a  href="tel:+79006149797"><span itemprop="telephone">+7 (900) 614-97-97</span></a>
+                                </div>
+
+                            </div>
+                            <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div class="svg-img">
+                                    {% include '../../svg/map/_pochta-yellow.njk' %}
+                                </div>
+                                <div class="item-cont">
+                                    <p class="contacts__text">
+                                        info@сquared.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts__info__item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+
+                            <div class="svg-img">
+                                {% include '../../svg/map/_marker-yellow.njk' %}
+                            </div>
+                            <div class="item-cont">
+                                <p class="contacts__text">
+                                    <span itemprop="addressLocality">Москва</span>, <span itemprop="streetAddress">Варшавское ш., д. 39</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#form" class="btn btn--main btn--m btn-wrap__desc">
+                        Связаться с нами
+                    </a>
+                </div>
+
+                <div class="contacts__map" id="map">
+
+                </div>
+                <a href="#form" class="btn btn--main btn--m btn-wrap__mob">
+                    Связаться с нами
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>

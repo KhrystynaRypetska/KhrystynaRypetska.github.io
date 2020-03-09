@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MagistralC';
+    src: url('MagistralC.eot');
+    src: url('MagistralC.eot?#iefix') format('embedded-opentype'),
+        url('MagistralC.woff2') format('woff2'),
+        url('MagistralC.woff') format('woff'),
+        url('MagistralC.ttf') format('truetype'),
+        url('MagistralC.svg#MagistralC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

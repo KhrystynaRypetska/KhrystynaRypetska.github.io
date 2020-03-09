@@ -1,0 +1,153 @@
+.contacts {
+  position: relative;
+  
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  &__title, &__text {
+    color: #ffffff;
+    font-family: $fontSourceSansPro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 80%;
+    align-self: flex-start;
+    
+    letter-spacing: 0.21px;
+    
+    display: inline;
+    @media (max-width: 479px) {
+      font-size: 15px;
+      align-self: flex-end;
+    }
+    
+  }
+  
+  &__title {
+    margin-bottom: 20px;
+    letter-spacing: 0.19px;
+    font-size: 20px;
+    @media (max-width: 768px) and (min-width: 479px) {
+      max-width: 51%;
+      
+    }
+    
+    @media (max-width: 768px) {
+      align-self: center;
+    }
+    @media (max-width: 479px) {
+      font-size: 15px;
+      max-width: 70%;
+    }
+  }
+  
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 40%;
+    
+    
+    color: #ffffff;
+    @media (max-width: 768px) {
+      width: 100%;
+      align-items: center;
+      background-image: url("../img/background/contacts/contacts-m.png");
+      &:before {
+        background: linear-gradient(180deg, rgba(5, 5, 5, 0.958420868347339) 34%, rgba(5, 5, 5, 0.6110819327731092) 46%, rgba(5, 5, 5, 0.6446953781512605) 59%, rgba(5, 5, 5, 1) 77%);
+      }
+    }
+    
+    &__wrap {
+      
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: $fontSourceSansPro;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+    
+        @media (max-width: 479px) {
+          .break {
+            display: inline-block;
+            word-wrap: break-word;
+          }
+        }
+      }
+      
+      @media (max-width: 768px) {
+        width: 80%;
+      }
+    }
+    
+ 
+    
+    &__item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 15px;
+      
+      .svg-img {
+        width: 15%;
+        margin-right: 20px;
+        
+        svg {
+          text-align: center;
+          width: 100%;
+        }
+      }
+      
+    }
+    
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+    
+  }
+  
+  &__map {
+    width: calc(60% - 20px);
+    height: 350px;
+   
+    
+    @media (max-width: 768px) {
+      width: 100%;
+      box-shadow: none;
+    }
+  }
+  
+  .btn-wrap {
+    display: flex;
+    align-self: flex-end;
+    
+    &__mob {
+      display: none;
+      @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+      }
+    }
+    
+    &__desc {
+      align-self: flex-start;
+      @media (max-width: 1024px) {
+        align-self: flex-end;
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  
+}
+

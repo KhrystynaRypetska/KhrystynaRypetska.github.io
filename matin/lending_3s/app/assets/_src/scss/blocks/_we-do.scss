@@ -1,0 +1,141 @@
+.we-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  
+  z-index: 2;
+  
+  .counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    margin-bottom: 170px;
+    
+    @media (max-width: 768px) {
+      .desc-counter {
+        display: none;
+      }
+    }
+    
+    &__item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-shrink: 0;
+  
+      flex-basis: 20%;
+      
+    }
+    
+    &__number {
+      text-align: center;
+      color: #f4bd00;
+      font-family: $fontMontserrat;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 150%;
+      white-space: nowrap;
+      
+      @media (max-width: 768px) {
+        width: 30%;
+        max-width: 100px;
+        text-align: right;
+        font-size: 25px;
+      }
+      @media (max-width: 479px) {
+        font-size: 20px;
+      }
+      
+    }
+    
+    &__text {
+      text-align: center;
+      color: #ffffff;
+      font-family: $fontSourceSansPro;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.17px;
+      @media (max-width: 768px) {
+        width: 70%;
+        text-align: left;
+      }
+      @media (max-width: 479px) {
+        font-size: 15px;
+        text-align: left;
+        font-weight: 500;
+      }
+    }
+  }
+  
+  &__text {
+    display: flex;
+    justify-content: flex-start;
+    
+    max-width: 581px;
+    width: 100%;
+    
+    p {
+      color: #ffffff;
+      font-family: $fontSourceSansPro;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 37.92px;
+      letter-spacing: 0.17px;
+      @media (max-width: 479px) {
+        font-size: 15px;
+      }
+      
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .counter {
+      margin-bottom: 70px;
+      flex-wrap: wrap;
+      
+      &__item {
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 50%;
+        margin: 20px 0;
+        
+      }
+      
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .counter {
+      margin-bottom: 70px;
+      flex-wrap: wrap;
+      
+      &__item {
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+        flex-basis: 100%;
+        @media (max-width: 768px) {
+          justify-content: space-around;
+        }
+      }
+      
+      &__number {
+        padding-right: 20px;
+      }
+    }
+  }
+  
+  @media (max-width: 479px) {
+    .counter {
+      margin-bottom: 70px;
+      
+      &__number {
+        padding-right: 12px;
+      }
+    }
+  }
+}
