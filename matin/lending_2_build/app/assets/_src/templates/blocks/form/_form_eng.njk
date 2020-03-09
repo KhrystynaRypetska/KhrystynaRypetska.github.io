@@ -5,12 +5,10 @@
                 <h3 class="section__title">
                     Fill out the request for a project
                 </h3>
-
                 <form class="contact-form" id="contact-form"  action="http://landing.loc" method="POST" enctype="multipart/form-data" autocomplete="on">
 
-                    <h3 class="form__description"></h3>
-
                     <div class="form__wrapper">
+
                         <div class="form">
 
                             <div  class="form__fields">
@@ -33,27 +31,30 @@
                             </div>
 
                             <div class="form__textarea">
-                                <p class="form__field ">
-                                    <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
-                                    <label for="message">Your request<span> *</span></label>
-                                </p>
-                                <p class="form__text"> <span> * </span> Required fields</p>
+                                <div class="form__field ">
+                                    <textarea class="input" name="text" id="text" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                                    <label for="text">Your request<span> *</span></label>
+                                    <div class="form__field__error form__field__error_text"></div>
+                                </div>
+                                <div class="form__text"> <span> * </span> Required fields</div>
 
                                 <div class="form__checkbox">
-                                    <input type="checkbox" id="check">
-                                    <label for="check" class="form__text"><span></span><p>I understand and agree with  &nbsp; <a href="Polit_konf.doc" class="break" >Privacy policy</a></p></label>
+                                    <input type="checkbox" id="form__checkbox" name="agreement" class="input">
+                                    <label for="form__checkbox" class="form__text"><span></span><p>I understand and agree with  <a href="Polit_konf.doc" class="break" > Privacy policy</a></p></label>
+                                    <div class="form__field__error form__field__error_agreement"></div>
                                 </div>
                             </div>
 
                         </div>
 
-
-
-                        <button class="clients-form btn btn--l  btn--f" type="submit">
-                            Отправить запрос
+                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                        <input type="hidden" name="lang" id="lang" value="en">
+                        <button disabled="disabled" class="clients-form__btn btn btn--l  btn--f" type="submit">
+                            Leave a request
                         </button>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>

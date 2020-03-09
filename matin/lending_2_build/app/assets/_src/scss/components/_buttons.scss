@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 48px;
   
-  padding: .3em .5em;
+  padding: .5em .5em;
   font-size: 19px;
   font-family: $fontMontserrat;
   font-weight: bold;
@@ -14,8 +14,6 @@
   text-align: center;
   
   &--main {
-    height: 48px;
-    
     font-size: 19px;
     font-weight: 400;
     line-height: 25.82px;
@@ -26,20 +24,19 @@
   }
   
   &--f {
-    color: #020101;
-    
-    background-color: #767676 ;
-
     font-size: 19px;
     font-weight: 400;
     line-height: 25.82px;
     letter-spacing: 0.2px;
-  
-    box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
-   
-    &:active {
-      background-image: linear-gradient(to right, #8f2480 0%, #770065 100%);
+    background-image: linear-gradient(to right, #8f2480 0%, #770065 100%);
+
+    &:disabled {
+      color: #020101;
+      background-image: none;
+      background-color: #767676 ;
+      box-shadow: 0 0 11px 1px rgba(0, 0, 0, 0.35);
     }
+
   }
   
   //medium

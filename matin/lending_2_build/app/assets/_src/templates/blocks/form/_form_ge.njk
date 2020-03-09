@@ -8,10 +8,10 @@
 
                 <form class="contact-form" id="contact-form"  action="http://landing.loc" method="POST" enctype="multipart/form-data" autocomplete="on">
 
-                    <h3 class="form__description"></h3>
-
                     <div class="form__wrapper">
+
                         <div class="form">
+
 
                             <div  class="form__fields">
                                 <div class="form__field">
@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="form__field">
                                     <input class="input input_name" type="text" name="name" id="name">
-                                    <label for="name">Name <span> *</span></label>
+                                    <label for="name">Name<span> *</span></label>
                                     <div class="form__field__error form__field__error_name"></div>
                                 </div>
                                 <div class="form__field">
@@ -33,27 +33,30 @@
                             </div>
 
                             <div class="form__textarea">
-                                <p class="form__field ">
-                                    <textarea class="input" name="message" id="message" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
-                                    <label for="message">Ihre Anfrage<span> *</span></label>
-                                </p>
-                                <p class="form__text"> <span> * </span> Benötigte Felder</p>
+                                <div class="form__field ">
+                                    <textarea class="input" name="text" id="text" style="max-width:100%;min-height:50px;height:100%;width:100%;"></textarea>
+                                    <label for="text">Ihre Anfrage<span> *</span></label>
+                                    <div class="form__field__error form__field__error_text"></div>
+                                </div>
+                                <div class="form__text"> <span> * </span> Benötigte Felder</div>
 
                                 <div class="form__checkbox">
-                                    <input type="checkbox" id="check">
-                                    <label for="check" class="form__text"><span></span><p>Ich verstehe und stimme zu  <a href="Polit_konf.doc" class="break" > Datenschutz-Bestimmungen&nbsp;</a></p></label>
+                                    <input type="checkbox" id="form__checkbox" name="agreement" class="input">
+                                    <label for="form__checkbox" class="form__text"><span></span><p>Ich verstehe und stimme zu  &nbsp; <a href="Polit_konf.doc" class="break" >Datenschutz-Bestimmungen</a></p></label>
+                                    <div class="form__field__error form__field__error_agreement"></div>
                                 </div>
                             </div>
 
                         </div>
 
-
-
-                        <button class="clients-form btn btn--l  btn--f" type="submit">
+                        <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                        <input type="hidden" name="lang" id="lang" value="de">
+                        <button disabled="disabled" class="clients-form__btn btn btn--l  btn--f" type="submit">
                             Hinterlasse eine Anfrage
                         </button>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>
