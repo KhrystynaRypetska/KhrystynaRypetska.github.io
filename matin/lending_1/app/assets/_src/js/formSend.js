@@ -1,5 +1,6 @@
 (function ($) {
   $('.contact-form').submit(function (event) {
+    window.getRecapchaToken()
     event.preventDefault()
     let form = $('#' + $(this).attr('id'))[0]
     let formClass = $(this).attr('class')
@@ -30,6 +31,7 @@
         processData: false,
         contentType: false,
         success: function success(res) {
+
           try {
             respond = $.parseJSON(res)
 
@@ -108,6 +110,7 @@
       })
 
       if (!empties.length && checkBox.prop('checked')) {
+
         $('.clients-form__btn').removeAttr('disabled')
       } else {
         $('.clients-form__btn').attr('disabled', true)
