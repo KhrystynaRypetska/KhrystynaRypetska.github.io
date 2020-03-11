@@ -40,17 +40,17 @@
 	// *** SMTP *** //
 
 	const HOST = 'smtp.gmail.com';
-	const LOGIN = 'mail1.for.testing.sites@gmail.com';
-	const PASS = 'jeka30111988';
+	const LOGIN = '';
+	const PASS = '';
 	const PORT = '465';
 
 	// *** /SMTP *** //
 
 	// Почта с которой будет приходить письмо
-	const SENDER = 'mail1.for.testing.sites@gmail.com';
+	const SENDER = '';
 
 	// Почта на которую будет приходить письмо
-	const CATCHER = 'mail1.for.testing.sites@gmail.com';
+	const CATCHER = '';
 
 	// Тема письма
 	const SUBJECT = 'Заявка с сайта';
