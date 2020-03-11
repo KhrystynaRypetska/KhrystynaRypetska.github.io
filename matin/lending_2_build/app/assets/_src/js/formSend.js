@@ -1,6 +1,5 @@
 (function ($) {
   $('.contact-form').submit(function (event) {
-    window.getRecapchaToken()
     event.preventDefault()
 
     let form = $('#' + $(this).attr('id'))[0]
@@ -96,7 +95,7 @@
 
   })
 
-  try{
+  try {
     let inputs = $('.input')
     let checkBox = $('#form__checkbox')
     let input = document.querySelectorAll('.input')
@@ -112,11 +111,12 @@
 
       if (!empties.length && checkBox.prop('checked')) {
         $('.clients-form__btn').removeAttr('disabled')
+        window.getRecapchaToken()
       } else {
         $('.clients-form__btn').attr('disabled', true)
       }
     }
-  }catch (e) {
+  } catch (e) {
     console.log(e)
   }
 

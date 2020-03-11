@@ -21,14 +21,18 @@
         <script>
             grecaptcha.ready(function()
             {
-                grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed',
+                window.getRecapchaToken = () =>
                 {
-                    action: 'homepage'
-                }).then(function(token)
-                {
-                    var recaptchaResponse = document.getElementById('recaptchaResponse');
-                    recaptchaResponse.value = token;
-                });
+                    grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed',
+                    {
+                        action: 'content'
+                    }).then(function(token)
+                    {
+                        var recaptchaResponse = document.getElementById('recaptchaResponse');
+                        recaptchaResponse.value = token;
+                    });
+                }
+                // window.getRecapchaToken()
             });
 
         </script>

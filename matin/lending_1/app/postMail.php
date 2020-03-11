@@ -7,7 +7,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
-
 // Load Composer's autoloader
 require '../vendor/autoload.php';
 
@@ -32,6 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['recaptcha_response']))
 
     // Take action based on the score returned
     if ($recaptcha->success) {
+
         try {
             if(defined('HOST') && HOST != '') {
                 $mail = new PHPMailer;
@@ -62,13 +62,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['recaptcha_response']))
             }
 
         } catch (Exception $e) {
-
-
         }
     } else {
-        echo json_decode('Not verified - show form error');
+        $error = [];
+	    $error_codes = 'error-codes';
+	    if (isset($Retorno->$error_codes) && in_array("timeout-or-duplicate", $Retorno->$error_codes)) {
+		    $error['success'] =  "The verification expired due to timeout, please try again.";
+		    ?>
+		    <?php
+	    } else {
+		    $error['success'] = "Check to make sure your keys match the registered domain and are in the correct locations.<br> You may also want to doublecheck your code for typos or syntax errors.";
+	    }
+	    echo json_encode($error);
     }
-
-} else{
-    header ("Location: /"); // главная страница вашего лендинга
 }

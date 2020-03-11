@@ -27,10 +27,13 @@
 <script src="https://www.google.com/recaptcha/api.js?render=6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed"></script>
 <script>
   grecaptcha.ready(function() {
-    grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed', {action: 'homepage'}).then(function(token) {
-      var recaptchaResponse = document.getElementById('recaptchaResponse');
-      recaptchaResponse.value = token;
-    });
+    window.getRecapchaToken = ()=> {
+      grecaptcha.execute('6LcNa94UAAAAAAdubwbViU_Mep5guCqzuh-fS2ed', {action: 'content'}).then(function(token) {
+        var recaptchaResponse = document.getElementById('recaptchaResponse');
+        recaptchaResponse.value = token;
+      });
+    }
+    // window.getRecapchaToken()
   });
 </script>
 <!-- CSS styles -->
