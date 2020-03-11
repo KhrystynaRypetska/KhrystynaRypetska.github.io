@@ -96,7 +96,7 @@
 
   })
 
-  try{
+  try {
     let inputs = $('.input')
     let checkBox = $('#form__checkbox')
     let input = document.querySelectorAll('.input')
@@ -116,7 +116,7 @@
         $('.clients-form__btn').attr('disabled', true)
       }
     }
-  }catch (e) {
+  } catch (e) {
     console.log(e)
   }
 
