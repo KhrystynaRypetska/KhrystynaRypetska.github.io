@@ -75,6 +75,8 @@
   
   margin-bottom: 97px;
   
+  width: 100%;
+  
   @media (max-width: 1024px) {
     margin-bottom: 83px;
   }
@@ -183,7 +185,7 @@
   max-width: 0;
   width: calc(20% - 69px);
   height: 1px;
-  right: calc(100% - 20% + 69px);
+  right: calc(100% - 19.1% + 69px);
   top: calc(50% + 11px);
   
   @media (max-width: 1024px) {
@@ -258,8 +260,8 @@
 
 .lines-5 {
   position: absolute;
-  right: 3%;
-  top: 43%;
+  left: 72.7%;
+  top: 50%;
   height: 1px;
   max-width: 0;
   width: 27.5%;
