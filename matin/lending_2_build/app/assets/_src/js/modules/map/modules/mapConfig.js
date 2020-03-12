@@ -121,7 +121,7 @@ const options = ()=> {
             "elementType": "geometry.fill",
             "stylers": [
                 {
-                    "color": "#730315"
+                    "color": "#f4bd00"
                 },
                 {
                     "lightness": "0"
