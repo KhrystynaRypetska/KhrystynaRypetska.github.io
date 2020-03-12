@@ -91,7 +91,7 @@
     &__wrap {
       
       a {
-        text-decoration: none;
+        text-decoration: none !important;
         color: #ffffff;
         font-family: $fontSourceSansPro;
         font-size: 15px;
