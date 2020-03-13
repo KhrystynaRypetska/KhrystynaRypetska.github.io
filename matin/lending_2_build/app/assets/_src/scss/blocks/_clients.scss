@@ -35,23 +35,8 @@
       @media (max-width: 1024px) {
         padding-bottom: 10px;
       }
-      
-      @media (max-width: 479px) {
-        display: none;
-      }
-
     }
-
-    &__mob {
-      display: none;
-      @media (max-width: 479px) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 120px;
-      }
-
-    }
+    
     @media (max-width: 1024px) {
       padding-bottom: 100px;
     }

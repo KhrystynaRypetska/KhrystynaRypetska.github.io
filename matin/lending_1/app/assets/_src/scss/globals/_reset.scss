@@ -54,3 +54,7 @@ table {
 input{
   appearance: textfield;
 }
+
+a:-webkit-any-link {
+   text-decoration: none;
+}
